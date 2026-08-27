@@ -1,0 +1,22 @@
+.DS_Store
+*.mp3
+*.mp4
+*.MP3
+*.MP4
+
+# Generated and heavyweight audiovisual assets
+**/clips/
+**/_qc/
+**/media/
+**/manim/
+**/pantry/
+*.m4a
+*.M4A
+*.wav
+*.WAV
+*.zip
+*.ZIP
+*.pyc
+__pycache__/
+**/deck*.html
+**/qc-sheet.png
