@@ -103,6 +103,7 @@ Staged to `DELIVERY/claude-basics--claude-liam-four-places-your-data-goes/`
 (README.md = description, beat_sheet.json, SCRIPT.md, SUBJECT.json,
 BUILD-LOG.md, CARRY-OUT.md, QUESTION.md — no media) to
 `claude-bear/claude-basics--claude-liam-four-places-your-data-goes/` in the
-humanitarians-youtube clone.
+humanitarians-youtube clone: commit `91e71098`, pushed clean (`git status
+--short` empty, `main...origin/main` in sync after).
 
 **Status: DELIVERED.**
