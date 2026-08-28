@@ -78,5 +78,20 @@ after this compile, per COMPLETION LAW.
 
 ## Phase 4 (delivery)
 
-4K master render + `deliver.py --push` run next; logged in a follow-up entry
-below if it lands in this same invocation.
+Master was already born native 3840×2160 (compile.py's 4K LAW), so
+`books--claude-liam-marketing-4k.mp4` was produced as a direct copy of the
+master (verified 3840×2160 via ffprobe before copying) — no separate re-render
+needed. Ran:
+
+```
+python3 skills/make/hai-simple/loop/deliver.py <REEL_DIR> --push
+```
+
+- Drive outbox: `DELIVERY/books--claude-liam-marketing/` —
+  `books--claude-liam-marketing-4k.mp4` + `books--claude-liam-marketing-description.md`.
+- Repo: `humanitarians-youtube/claude-bear/books--claude-liam-marketing/` —
+  README.md (= description), beat_sheet.json, SCRIPT.md, SUBJECT.json,
+  BUILD-LOG.md, CARRY-OUT.md, QUESTION.md. No mp3/mp4 in the repo copy.
+- Committed + pushed: `1e524158c9cbdc727599a6a440bea7eb19c35e4e`.
+
+Reel status: DELIVERED.
