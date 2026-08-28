@@ -102,4 +102,29 @@ audible narration throughout. This is the review cut (COMPLETION LAW satisfied: 
 
 ## Phase 4 (4K + delivery)
 
-See the append below this line for the 4K render and `deliver.py` outcome.
+- **4K master:** `compile.py` without `--review` enforces its 4K LAW automatically —
+  wrote `books--claude-liam-combining-plugins.mp4` natively at 3840×2160, 314.0s,
+  36/36 beats real, mean_volume -23.8 dB. Copied to `books--claude-liam-combining-plugins-4k.mp4`
+  so `deliver.py`'s `newest_master()` picks it as the explicit 4K variant.
+- **Playlist correction, logged:** initially matched `SUBJECT.json`'s `"skill": "hai-simple"`
+  literally against `playlists.json`'s `"hai-simple"` key → "Claude Basics". Caught before
+  final delivery by checking `HAILOOP-LOG.md`: the immediately-preceding sibling reel
+  (`books--claude-liam-building-plugins`, same source book, Ch.12 "Building Your Own
+  Plugins") explicitly reasoned that neither `family: "books"` nor a `"books--"` slug
+  prefix has a literal entry in the map, and content-matched to **"Extending Claude —
+  Skills, Plugins & Connectors"** instead of falling to `_default` — logging that
+  reasoning rather than mechanically using a skill-name match. This reel is the same
+  book, same topic family (combining/using plugins); for consistency with that
+  established precedent, the playlist here is also **Extending Claude — Skills, Plugins
+  & Connectors**, not "Claude Basics" and not `_default`. Fixed in `books--claude-
+  liam-combining-plugins.md` (title/description also de-branded from "Claude Basics")
+  before delivery; the repo README was corrected in a follow-up commit after the first
+  `deliver.py --push` had already gone out with the wrong playlist line.
+- **Delivered:** `deliver.py --push` — outbox
+  `DELIVERY/books--claude-liam-combining-plugins/` (4K master + description, syncs to
+  Drive `Claude_Bear/` on this machine's Drive-for-desktop mount); repo
+  `humanitarians-youtube/claude-bear/books--claude-liam-combining-plugins/` (README.md +
+  beat_sheet.json + SCRIPT.md + SUBJECT.json + BUILD-LOG.md + CARRY-OUT.md +
+  QUESTION.md — no media). Commits `bcc071e4` (initial) and `720ca52a` (playlist fix).
+
+**Status: DELIVERED.**
