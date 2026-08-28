@@ -1,13 +1,13 @@
 # Claude, In Concert — YouTube metadata
 
 **Channel:** @HumanitariansAI
-**Playlist:** Claude Basics
+**Playlist:** Extending Claude — Skills, Plugins & Connectors
 **AI disclosure:** This video uses AI-generated narration (Kokoro text-to-speech, voice
 "Liam") and AI-assisted animation (Manim, Remotion). No AI-generated video or imagery.
 
 ## Title
 
-Claude, In Concert — Do You Have to Pick a Plugin? (Claude Basics)
+Claude, In Concert — Do You Have to Pick a Plugin?
 
 ## Description
 
@@ -15,9 +15,8 @@ If you install more than one Claude plugin, do you have to tell Claude which one
 for a given task? No — Claude reads the request and reaches for whatever fits, and the
 real power isn't any one plugin, it's the stack.
 
-This is Claude Basics, from Humanitarians AI: short, plain explanations of how Claude
-actually works, for a general audience meeting Claude for the first time. Liam, in for
-Professor Bear.
+From Humanitarians AI: short, plain explanations of how Claude actually works, for a
+general audience meeting Claude for the first time. Liam, in for Professor Bear.
 
 In this one: how Claude infers which plugins a request needs without being told; a
 worked hand-off from research into marketing (and the same hand-off aimed at a sales
