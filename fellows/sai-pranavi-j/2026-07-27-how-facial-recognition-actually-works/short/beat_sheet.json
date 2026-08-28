@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "slug": "2026-07-27-how-facial-recognition-actually-works",
+    "slug": "2026-07-27-how-facial-recognition-actually-works-short",
     "title": "How Facial Recognition Actually Works (And When It Shouldn't)",
     "date": "August 3, 2026",
     "report_type": "topic-explainer",
@@ -39,13 +39,23 @@
       "card": 0
     },
     "build": {
-      "at": "2026-08-26T11:40:59",
+      "at": "2026-08-28T12:30:01",
       "cut": "master",
       "filled": 12,
       "of": 12,
       "slates": [],
       "skin_warnings": []
-    }
+    },
+    "aspect_ratio": "9:16",
+    "fit": "crop",
+    "kind": "short",
+    "reformat": "center-cut, focus-aware; pantry/<bid>-916.* is the human replacement slot; -916 overrides honored",
+    "derived_from": "2026-07-27-how-facial-recognition-actually-works",
+    "dropped_beats": [
+      "B09"
+    ],
+    "playlist_short": "Shorts",
+    "total_estimated_duration_seconds": 179.03
   },
   "beats": [
     {
@@ -74,7 +84,7 @@
         "status": "MANIM",
         "src": "manim/B00.mp4",
         "filled_by": "manim",
-        "at": "2026-08-26T11:40:59"
+        "at": "2026-08-28T12:30:01"
       }
     },
     {
@@ -103,7 +113,7 @@
         "status": "MANIM",
         "src": "manim/B01.mp4",
         "filled_by": "manim",
-        "at": "2026-08-26T11:40:59"
+        "at": "2026-08-28T12:30:01"
       }
     },
     {
@@ -132,7 +142,7 @@
         "status": "MANIM",
         "src": "manim/B02.mp4",
         "filled_by": "manim",
-        "at": "2026-08-26T11:40:59"
+        "at": "2026-08-28T12:30:01"
       }
     },
     {
@@ -161,7 +171,7 @@
         "status": "MANIM",
         "src": "manim/B03.mp4",
         "filled_by": "manim",
-        "at": "2026-08-26T11:40:59"
+        "at": "2026-08-28T12:30:01"
       }
     },
     {
@@ -190,7 +200,7 @@
         "status": "MANIM",
         "src": "manim/B04.mp4",
         "filled_by": "manim",
-        "at": "2026-08-26T11:40:59"
+        "at": "2026-08-28T12:30:01"
       }
     },
     {
@@ -219,7 +229,7 @@
         "status": "MANIM",
         "src": "manim/B05.mp4",
         "filled_by": "manim",
-        "at": "2026-08-26T11:40:59"
+        "at": "2026-08-28T12:30:01"
       }
     },
     {
@@ -248,7 +258,7 @@
         "status": "MANIM",
         "src": "manim/B06.mp4",
         "filled_by": "manim",
-        "at": "2026-08-26T11:40:59"
+        "at": "2026-08-28T12:30:01"
       }
     },
     {
@@ -277,7 +287,7 @@
         "status": "MANIM",
         "src": "manim/B07.mp4",
         "filled_by": "manim",
-        "at": "2026-08-26T11:40:59"
+        "at": "2026-08-28T12:30:01"
       }
     },
     {
@@ -306,36 +316,7 @@
         "status": "MANIM",
         "src": "manim/B08.mp4",
         "filled_by": "manim",
-        "at": "2026-08-26T11:40:59"
-      }
-    },
-    {
-      "beat_id": "B09",
-      "act": "WORKED-EXAMPLE",
-      "content_type": "realworld",
-      "engine": "kokoro",
-      "voice": "af_bella",
-      "narration_text": "Try the lens on one real case: a retail store wants facial recognition for loss prevention. What's it for? Catching theft, by scanning every shopper without consent. What happens if it's wrong? An innocent person gets flagged, maybe banned, never told why. How confident is the claim? The vendor says '99% accurate' — the same kind of number that needs the same skepticism as before. Three high-stakes answers. That system needs real scrutiny.",
-      "new_visual_element": "Worked example (added per PROOF review): the three framework questions applied live to a retail loss-prevention case",
-      "estimated_duration_s": 28,
-      "lane": "MANIM",
-      "shot": {
-        "type": "GRAPHIC",
-        "source": "own",
-        "motion": "build",
-        "manim": {
-          "scene": "B09_WorkedExample",
-          "module": "scenes.py"
-        },
-        "note": "Three Q&A rows reveal in sequence (used for / what if wrong / how confident), each answer tagged high-stakes, ending on 'needs real scrutiny.'"
-      },
-      "audio_file": "mp3/beat-B09.mp3",
-      "actual_duration_s": 26.86,
-      "build": {
-        "status": "MANIM",
-        "src": "manim/B09.mp4",
-        "filled_by": "manim",
-        "at": "2026-08-26T11:40:59"
+        "at": "2026-08-28T12:30:01"
       }
     },
     {
@@ -364,7 +345,7 @@
         "status": "MANIM",
         "src": "manim/B10.mp4",
         "filled_by": "manim",
-        "at": "2026-08-26T11:40:59"
+        "at": "2026-08-28T12:30:01"
       }
     },
     {
@@ -373,7 +354,7 @@
       "content_type": "structure",
       "engine": "kokoro",
       "voice": "af_bella",
-      "narration_text": "This is Bella, in for Sai Pranavi Jeedigunta, for Humanitarians AI.",
+      "narration_text": "That's the short version. The full video also covers Try the lens on one… — watch How Facial Recognition Actually Works (And When It Shouldn't) for the whole story. The link is right below.",
       "new_visual_element": "@HumanitariansAI — in for Sai Pranavi Jeedigunta",
       "estimated_duration_s": 5,
       "lane": "MANIM",
@@ -388,12 +369,36 @@
         "note": "Brand card: @HumanitariansAI, in for Sai Pranavi Jeedigunta."
       },
       "audio_file": "mp3/beat-B11.mp3",
-      "actual_duration_s": 4.92,
+      "actual_duration_s": 11.95,
       "build": {
         "status": "MANIM",
         "src": "manim/B11.mp4",
         "filled_by": "manim",
-        "at": "2026-08-26T11:40:59"
+        "at": "2026-08-28T12:30:01"
+      },
+      "short_outro_rewritten": true
+    },
+    {
+      "beat_id": "END",
+      "narration_text": "",
+      "actual_duration_s": 4.5,
+      "audio_file": "mp3/beat-END.mp3",
+      "shot": {
+        "type": "CARD",
+        "source": "own",
+        "motion": "hold",
+        "treatment": "none"
+      },
+      "card": {
+        "handle": "@nikbearbrown",
+        "next": "a full worked example, applying this lens to a real retail case",
+        "silent": true
+      },
+      "build": {
+        "status": "STILL",
+        "src": "media/END.png",
+        "filled_by": "still",
+        "at": "2026-08-28T12:30:01"
       }
     }
   ]
