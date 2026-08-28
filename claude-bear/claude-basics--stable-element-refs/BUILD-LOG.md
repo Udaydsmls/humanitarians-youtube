@@ -117,5 +117,16 @@ Metadata file written: `claude-basics--stable-element-refs.md` (channel
 `skills/make/hai-simple/loop/playlists.json` via the `claude-basics` family
 prefix — plus the direct code link per the DELIVERY CONTRACT format).
 
-**Status: review cut DONE.** Passed every Phase-3 gate. Proceeding to
-Phase 4 (4K render + deliver.py) in this same invocation.
+**Status: review cut DONE.** Passed every Phase-3 gate.
+
+## Phase 4 — delivery
+
+Master was already born at 3840×2160 (compile.py's 4K LAW), so it was
+copied to `claude-basics--stable-element-refs-4k.mp4` rather than a separate
+4K re-render. `deliver.py --push` staged `DELIVERY/claude-basics--stable-element-refs/`
+(4K master + description) and committed the text artifacts (README.md =
+description, beat_sheet.json, SCRIPT.md, SUBJECT.json, BUILD-LOG.md,
+CARRY-OUT.md, QUESTION.md) to `humanitarians-youtube/claude-bear/` — commit
+`9db5db04`, pushed.
+
+**Status: DELIVERED.**
