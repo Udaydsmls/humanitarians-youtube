@@ -110,4 +110,16 @@ Plugins & Connectors" every time. For consistency this reel's `<slug>.md` uses t
 playlist. Per COMPLETION LAW, `beat_sheet.json` was not re-touched post-compile to fix its
 stale `metadata.playlist` value — this note documents the discrepancy instead.
 
-**Status: review cut DONE.** Phase 4 (4K render + delivery) not yet run this session.
+## Phase 4 (4K + delivery)
+
+- **4K master:** already born native 3840×2160 from `compile.py`'s 4K LAW (no `--review`
+  flag used). Copied to `books--claude-liam-enterprise-search-4k.mp4` so `deliver.py`'s
+  `newest_master()` picks it as the explicit 4K variant.
+- **Delivered:** `deliver.py --push` — outbox
+  `DELIVERY/books--claude-liam-enterprise-search/` (4K master + description, syncs to
+  Drive `Claude_Bear/` on this machine's Drive-for-desktop mount); repo
+  `humanitarians-youtube/claude-bear/books--claude-liam-enterprise-search/` (README.md +
+  beat_sheet.json + SCRIPT.md + SUBJECT.json + BUILD-LOG.md + CARRY-OUT.md + QUESTION.md —
+  no media). Commit `3d0cfd51`.
+
+**Status: DELIVERED.**
