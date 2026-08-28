@@ -1,0 +1,62 @@
+# Uday Sonawane — Humanitarians AI fellow
+
+Weekly work reports and AI explainers for the `@HumanitariansAI` channel, built
+on the Brutalist audio-first chassis.
+
+## Voice choice
+
+**Voice:** Onyx (`am_onyx`)
+**Register:** Pragmatist — method first, then when it applies and when it does not.
+**Channel chip / handle on cut:** `@HumanitariansAI`
+
+`am_onyx` was selected by the fellow and is recorded in every episode
+`beat_sheet.json`. It is kept across this series; a change would be an explicit,
+documented re-voice decision, not a per-episode default.
+
+Note for the weekly-fixtures cut: `am_onyx` replaced an earlier `af_bella` pass
+at the fellow's request. Because the toolkit is audio-first, that re-voice
+re-timed the whole reel and every Manim scene was re-authored to the new
+measured clock — see that episode's `BUILD-LOG.md`, "REVISION 2".
+
+## Reports in this folder
+
+- [2026-08-27 — Build the Defects First](./2026-08-27-weekly-fixtures-before-validators/) —
+  weekly work report on `mycroft` @ `9ef4e7f`: building a defect corpus (3 clean
+  fixtures, 18 catalogued defects) before writing any validator, then revising
+  step 1 to verify provenance. 13 beats · ~3:02.
+- [2026-08-27 — State Space Models and Mamba](./2026-08-27-state-space-models-and-mamba/) —
+  AI explainer on the `claude-hai` channel key: a STATE / UPDATE / COST rubric,
+  applied to RNNs and Transformers, then SSM → S4 → Mamba, then the copying
+  ceiling the rubric predicts. 12 beats · ~3:35.
+
+## Rendered videos
+
+Both rendered cuts are in Google Drive, not in this repo:
+
+<https://drive.google.com/drive/folders/1T7zrj41hh10qB0qOU1LD3qJF6VL0qV0K>
+
+Review copies only. Each episode README links the same folder.
+
+## Publishing
+
+Neither package is authorized for publication. Masters and all audio/video
+assets stay out of git; only the beat sheets, scene source, and review paperwork
+are tracked here. The Drive folder above is a review location, not a release.
+
+<!-- BEGIN BRUTALIST REBUILD GUIDE -->
+
+# Uday Sonawane
+
+This folder organizes video projects built around beat sheets. Each project
+README explains the subject and documents the free local rebuild workflow.
+
+## Rebuild toolkit
+
+```bash
+git clone https://github.com/nikbearbrown/brutalist.art.git
+cd brutalist.art
+./setup --install
+./setup
+```
+
+<!-- END BRUTALIST REBUILD GUIDE -->
