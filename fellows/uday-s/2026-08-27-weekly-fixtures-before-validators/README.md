@@ -53,10 +53,29 @@ Not tracked here (gitignored, local only): `clips/`, `media/`, `manim/`,
 (`Mycroft_UdaySonawane_08_28_2026.mp4`,
 `weekly-fixtures-before-validators{,-slate}.mp4`).
 
+## 9:16 Short — `short/`
+
+A derivative vertical cut for YouTube Shorts, built with `./art shorts`.
+
+**`weekly-fixtures-before-validators-short.mp4`** · 1080×1920 · ~1:27 (87.33s) ·
+6 beats + silent endcard · GATE V **BLOCKER 0**
+
+Seven beats were dropped to get under the 3:00 Shorts cap and to leave one
+insight standing — **the four-step method and the case that breaks it**. Kept:
+B00 INTRO, B01 PROBLEM, B02 FRAMEWORK, B05 OUTPUT, B09 FALSIFIABILITY, plus a
+rewritten funnel outro. Full cut list and reasoning in
+[`short/SHOTLIST.md`](./short/SHOTLIST.md).
+
+The audio is the parent's, byte for byte; only the outro was regenerated, per
+the Shorts Law. Manim run-times are copied verbatim — geometry changed, timing
+did not. Both bookends render from `ClaudeComposerAsk916` /
+`ClaudeTitleOutro916`; the four body beats are re-laid-out in
+[`short/scenes.py`](./short/scenes.py) for the 4.5 × 8 portrait frame.
+
 ## Rendered video
 
-The rendered cut is not in this repo. Review copies of both of this fellow's
-2026-08-27 reels are in Google Drive:
+The rendered cuts are not in this repo. Review copies of both of this fellow's
+2026-08-27 reels — landscape and Short — are in Google Drive:
 
 <https://drive.google.com/drive/folders/1T7zrj41hh10qB0qOU1LD3qJF6VL0qV0K>
 

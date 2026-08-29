@@ -70,10 +70,33 @@ Not tracked here (gitignored, local only): `clips/`, `media/`, `manim/`,
 (`StateSpaceModelsAndMamba_UdaySonawane_08_28_2026.mp4`,
 `state-space-models-and-mamba{,-slate}.mp4`).
 
+## 9:16 Short — `short/`
+
+A derivative vertical cut for YouTube Shorts, built with `./art shorts`.
+
+**`state-space-models-and-mamba-short.mp4`** · 1080×1920 · ~1:48 (107.63s) ·
+6 beats + silent endcard · GATE V **BLOCKER 0**
+
+Six beats were dropped to get under the 3:00 Shorts cap and to leave one insight
+standing — **the axis that makes Mamba cheap is the axis that limits it**. Kept:
+B00 INTRO, B01 BLUF, B02 FRAMEWORK, B06 MECHANISM, B08 FALSIFIABILITY, plus a
+rewritten funnel outro. Full cut list and reasoning in
+[`short/SHOTLIST.md`](./short/SHOTLIST.md).
+
+Both surviving citation beats keep their arXiv line on screen at the moment of
+the claim. The 5× throughput figure is **not** in the Short — it lived in B07,
+which was cut, so no number appears that is not sourced on screen.
+
+The audio is the parent's, byte for byte; only the outro was regenerated, per
+the Shorts Law. Manim run-times are copied verbatim — geometry changed, timing
+did not. Both bookends render from `ClaudeComposerAsk916` /
+`ClaudeTitleOutro916`; the four body beats are re-laid-out in
+[`short/scenes.py`](./short/scenes.py) for the 4.5 × 8 portrait frame.
+
 ## Rendered video
 
-The rendered cut is not in this repo. Review copies of both of this fellow's
-2026-08-27 reels are in Google Drive:
+The rendered cuts are not in this repo. Review copies of both of this fellow's
+2026-08-27 reels — landscape and Short — are in Google Drive:
 
 <https://drive.google.com/drive/folders/1T7zrj41hh10qB0qOU1LD3qJF6VL0qV0K>
 

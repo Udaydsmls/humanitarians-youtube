@@ -23,11 +23,15 @@ measured clock — see that episode's `BUILD-LOG.md`, "REVISION 2".
 - [2026-08-27 — Build the Defects First](./2026-08-27-weekly-fixtures-before-validators/) —
   weekly work report on `mycroft` @ `9ef4e7f`: building a defect corpus (3 clean
   fixtures, 18 catalogued defects) before writing any validator, then revising
-  step 1 to verify provenance. 13 beats · ~3:02.
+  step 1 to verify provenance. 13 beats · ~3:02 · plus a 9:16 Short (~1:27).
 - [2026-08-27 — State Space Models and Mamba](./2026-08-27-state-space-models-and-mamba/) —
   AI explainer on the `claude-hai` channel key: a STATE / UPDATE / COST rubric,
   applied to RNNs and Transformers, then SSM → S4 → Mamba, then the copying
-  ceiling the rubric predicts. 12 beats · ~3:35.
+  ceiling the rubric predicts. 12 beats · ~3:35 · plus a 9:16 Short (~1:48).
+
+Each episode folder carries a `short/` subfolder: a derivative 1080×1920 cut for
+YouTube Shorts, reusing the parent's audio with only the funnel outro
+regenerated. Both Shorts pass GATE V with **BLOCKER 0**.
 
 ## Rendered videos
 
