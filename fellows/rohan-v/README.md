@@ -10,6 +10,11 @@ Rebuild with [brutalist.art](https://github.com/nikbearbrown/brutalist.art). Do 
 
 Masters ship at 1080p by default. For 4K: Manim `-qk -r 3840,2160`, `ART_REMOTION_SCALE=2` on Remotion bookends, then `compile.py --height 2160` (16:9) or `--height 3840` (9:16).
 
+## Week of 2026-08-28
+
+- [Agent-First with Brutalist](./2026-08-28-agent-first-brutalist/)
+- [Stem Separation: Estimation, Not Extraction](./2026-08-28-stem-separation/)
+
 ## Week of 2026-08-21
 
 - [What a Spectrogram Shows](./2026-08-21-what-a-spectrogram-shows/)
