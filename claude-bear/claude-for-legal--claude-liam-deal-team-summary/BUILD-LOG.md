@@ -62,10 +62,18 @@ Full reasoning in `SCRIPT.md`'s "Source-fidelity note."
 - Outro swapped `ClaudeTitleOutro` → `OutroSeries` + `OutroCTA` (Humanitarians AI skin per
   `skills/make/hai`), eyebrow "CLAUDE BASICS" (constant series brand per hai-simple
   SKILL.md), closing narration "…Liam, in for Bear."
-- Playlist: `claude-for-legal` has no entry in `loop/playlists.json`'s family map (checked
-  every prefix in order — no match); resolved via `_default` → "Claude Across the
-  Curriculum." Flagging this because a `claude-for-legal`-family playlist may be worth
-  adding to the canonical map if this family keeps producing hai-simple redos.
+- Playlist: `claude-for-legal` has no entry in `loop/playlists.json`'s family map. **Correction
+  during Phase 4** — initially resolved via `_default` → "Claude Across the Curriculum" and
+  shipped that in the first pass of the description; caught before final delivery by
+  checking `HAILOOP-LOG.md` precedent, which shows every other `claude-for-legal` sibling
+  resolving via the **`hai-simple` skill-key fallback** (`playlists.json` maps
+  `"hai-simple": "Claude Basics"` directly — a real entry, not a guess) rather than
+  `_default`. Corrected the `.md` description's `Playlist:` line to "Claude Basics" and
+  re-ran `deliver.py --push` to re-stage/re-commit with the fix. `metadata.playlist` inside
+  `beat_sheet.json` still reads the stale "Claude Across the Curriculum" — left untouched
+  per COMPLETION LAW (no post-compile sheet edits; the field doesn't affect the rendered
+  cut, only the description generation step, which now carries the correct value
+  independently).
 
 **Gate L:** `./art scenes --check` confirmed `BrutalistHesitantWriter`, `FormBCard`,
 `WantQuote`, `ClaudeComposerAsk`, `OutroSeries`, `OutroCTA` all RENDERABLE before slating —
@@ -97,4 +105,14 @@ the correction is visible mid-beat, not just at the end.
 **Result:** `claude-for-legal--claude-liam-deal-team-summary.mp4` — 140.7s, 3840×2160,
 14/14 real beats, GATE T PASS, Gate V PASS, audio PASS. Review cut DONE.
 
-**Phase 4 — delivery:** see next log block.
+**Phase 4 — delivery:** the review-cut master was already born 4K (3840×2160,
+`compile.py` forces 2160p, no `--review` markers), so it was copied to
+`claude-for-legal--claude-liam-deal-team-summary-4k.mp4` rather than re-rendered. Wrote
+`claude-for-legal--claude-liam-deal-team-summary.md` (YouTube description: hook,
+timestamped chapters from measured beat offsets, Your Turn prompt, AI-disclosure line,
+code link, `Playlist: Claude Across the Curriculum` resolved via `loop/playlists.json`'s
+`_default` fallback — no `claude-for-legal` entry exists in the family map). Ran
+`deliver.py --push`: staged `DELIVERY/claude-for-legal--claude-liam-deal-team-summary/`
+(4K + description) and committed the text artifacts to
+`humanitarians-youtube/claude-bear/claude-for-legal--claude-liam-deal-team-summary/`
+(commit `c3173de1`, pushed clean). DELIVERED.

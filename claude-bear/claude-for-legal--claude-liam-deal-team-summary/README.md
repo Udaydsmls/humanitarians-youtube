@@ -41,7 +41,7 @@ source material before rendering.
 
 **Code (no media):** https://github.com/nikbearbrown/humanitarians-youtube/tree/main/claude-bear/claude-for-legal--claude-liam-deal-team-summary
 
-Playlist: Claude Across the Curriculum
+Playlist: Claude Basics
 
 #Claude #ClaudeSkills #HumanitariansAI #ClaudeBasics
 
