@@ -160,3 +160,20 @@ CONTRACT format).
 
 **Status: review cut DONE.** Passed every Phase-3 gate. Proceeding to
 Phase 4 (4K render + deliver.py) in this same invocation.
+
+## Phase 4 — delivery, DONE
+
+`compile.py`'s own 4K LAW already produced a native 3840x2160 master (no
+separate upscale needed), so `claude-for-legal--claude-liam-chronology.mp4`
+was copied to `claude-for-legal--claude-liam-chronology-4k.mp4` and packaged
+via:
+
+```
+python3 skills/make/hai-simple/loop/deliver.py <REEL_DIR> --push
+```
+
+Staged to `DELIVERY/claude-for-legal--claude-liam-chronology/` (4K master +
+description) and committed the text artifacts (README.md = description,
+beat_sheet.json, SCRIPT.md, SUBJECT.json, BUILD-LOG.md, CARRY-OUT.md,
+QUESTION.md — no mp3/mp4) to `humanitarians-youtube/claude-bear/` at commit
+`132c9727`, then pushed. **Reel fully DONE end to end this invocation.**
