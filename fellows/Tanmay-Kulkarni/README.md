@@ -39,6 +39,10 @@ choice for the series.**
 | 2026-07-29 | [`2026-07-29 AI Crossroads - Build or Buy Video - Klarna`](./2026-07-29%20AI%20Crossroads%20-%20Build%20or%20Buy%20Video%20-%20Klarna/) | Klarna — build-or-buy, read through the Productivity J-Curve |
 | 2026-08-05 | [`2026-08-05-lemonade-claims-bot-mycroft`](./2026-08-05-lemonade-claims-bot-mycroft/) | Lemonade — building the claims workflow, and what production would demand |
 | 2026-08-06 | [`2026-08-06-can-ai-catch-its-own-mistakes`](./2026-08-06-can-ai-catch-its-own-mistakes/) | Self-verification — testing a repo topic's claim, and finding it doesn't hold |
+| 2026-08-12 | [`2026-08-12 bs-01-pick-and-scope`](./2026-08-12%20bs-01-pick-and-scope/) | Job descriptions — four questions that make a generic one specific enough for AI |
+| 2026-08-13 | [`2026-08-13 hsbc-agentic-adjacent-ai-mycroft`](./2026-08-13%20hsbc-agentic-adjacent-ai-mycroft/) | HSBC — reading an AI announcement without adding to it |
+| 2026-08-23 | [`2026-08-23-the-ai-was-right`](./2026-08-23-the-ai-was-right/) | DBS — a true claim, and the inference it invites |
+| 2026-08-23 | [`2026-08-23-where-the-record-stops`](./2026-08-23-where-the-record-stops/) | DBS credit-memo — labelling a build CONFIRMED, CONSTRUCTED or BLANK |
 | 2026-08-30 | [`2026-08-30-a-quantum-sphere-stem-video`](./2026-08-30-a-quantum-sphere-stem-video/) | A quantum sphere is never the size it looks — the cross section that refuses to be classical |
 | 2026-08-30 | [`2026-08-30-drafts-one-thing-files-another-mycroft`](./2026-08-30-drafts-one-thing-files-another-mycroft/) | Morgan Stanley — the distinction a review pass surfaced, and the one line that keeps it |
 
