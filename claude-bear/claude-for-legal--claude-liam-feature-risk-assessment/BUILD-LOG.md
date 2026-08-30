@@ -190,3 +190,25 @@ the DELIVERY CONTRACT format).
 
 **Status: review cut DONE.** Passed every Phase-3 gate. Proceeding to
 Phase 4 (4K render + deliver.py) in this same invocation.
+
+## 2026-08-30 — Phase 4 delivery
+
+`compile.py` (no `--review`) forces THE 4K LAW automatically — wrote
+`claude-for-legal--claude-liam-feature-risk-assessment.mp4` natively at
+3840x2160, 94.8s, 7/7 beats real, mean_volume -24.0 dB. Copied to
+`claude-for-legal--claude-liam-feature-risk-assessment-4k.mp4` so
+`deliver.py`'s `newest_master()` picks it as the explicit 4K variant.
+
+```
+python3 skills/make/hai-simple/loop/deliver.py <REEL_DIR> --push
+```
+
+Outbox staged:
+`DELIVERY/claude-for-legal--claude-liam-feature-risk-assessment/` (4K mp4 +
+description.md, syncs to Drive `Claude_Bear/` on this machine's
+Drive-for-desktop mount). Repo:
+`humanitarians-youtube/claude-bear/claude-for-legal--claude-liam-feature-risk-assessment/`
+(README.md, beat_sheet.json, SCRIPT.md, SUBJECT.json, BUILD-LOG.md,
+CARRY-OUT.md, QUESTION.md — no media). Commit `4292b5b2`.
+
+**Status: DELIVERED.** Both delivery targets staged/pushed. Reel complete.
