@@ -126,9 +126,22 @@ the `"hai-simple"` prefix (this reel's own `skill` field / parent
 directory), which resolves to **"Claude Basics."** Not the bare "Claude,"
 per the PLAYLIST LAW.
 
-**Status: DONE (review cut).** Review cut passes every gate (content-check,
-frame-check, lane-check, GATE AUDIO, GATE T, Gate V by eye). Proceeding to
-Phase 4 delivery (4K render + `deliver.py --push`). Source-fidelity note
-logged above and in QUESTION.md/SCRIPT.md/the description's "Deliberately
-not claimed" section — nothing about how gaps's unread SKILL.md internally
-decides what counts as a "gap" is asserted anywhere in this reel.
+**Delivery (Phase 4):** the compiled master was already native 3840×2160
+(compile.py's 4K LAW), so `claude-for-legal--claude-liam-gaps-4k.mp4` is a
+direct copy — no upscale needed. Wrote
+`claude-for-legal--claude-liam-gaps.md` (YouTube description,
+@HumanitariansAI, playlist "Claude Basics", direct code link, AI
+disclosure). Ran `deliver.py --push`: staged
+`DELIVERY/claude-for-legal--claude-liam-gaps/` (4K master + description) and
+committed + pushed the text artifacts (README.md, beat_sheet.json,
+SCRIPT.md, SUBJECT.json, BUILD-LOG.md, CARRY-OUT.md, QUESTION.md) to the
+humanitarians-youtube clone under
+`claude-bear/claude-for-legal--claude-liam-gaps/`.
+
+**Status: DONE.** Review cut passes every gate (content-check, frame-check,
+lane-check, GATE AUDIO, GATE T, Gate V by eye) and both delivery targets
+(Drive outbox + humanitarians-youtube) are staged/pushed. Source-fidelity
+note logged above and in QUESTION.md/SCRIPT.md/the description's
+"Deliberately not claimed" section — nothing about how gaps's unread
+SKILL.md internally decides what counts as a "gap" is asserted anywhere in
+this reel.
