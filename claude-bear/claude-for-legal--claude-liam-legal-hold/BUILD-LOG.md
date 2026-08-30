@@ -128,8 +128,18 @@ the `"hai-simple"` prefix (this reel's own `skill` field / parent
 directory), which resolves to **"Claude Basics."** Not the bare "Claude,"
 per the PLAYLIST LAW.
 
-**Delivery:** in progress — see the follow-up log entry / HAILOOP-LOG.md
-for the 4K render and `deliver.py --push` outcome.
+**Delivery:** `claude-for-legal--claude-liam-legal-hold-4k.mp4` created — a
+copy of the compiled master, which was already genuine 3840×2160 (the
+Remotion beats are natively 4K; the Manim beats are 1080p source upscaled
+into the 4K canvas by the compile step itself, same as every other GRAPHIC
+beat in this pipeline). Wrote `claude-for-legal--claude-liam-legal-hold.md`
+(YouTube description, @HumanitariansAI, playlist "Claude Basics", direct
+code link, AI disclosure). Ran `deliver.py --push` to stage
+`DELIVERY/claude-for-legal--claude-liam-legal-hold/` and commit text
+artifacts to the humanitarians-youtube clone under
+`claude-bear/claude-for-legal--claude-liam-legal-hold/` — committed and
+pushed successfully.
 
-**Status: review cut DONE.** Passes every gate (content-check, frame-check,
-lane-check, GATE AUDIO, GATE T, Gate V by eye).
+**Status: DONE.** Review cut passes every gate (content-check, frame-check,
+lane-check, GATE AUDIO, GATE T, Gate V by eye). 4K delivered to both
+targets.
