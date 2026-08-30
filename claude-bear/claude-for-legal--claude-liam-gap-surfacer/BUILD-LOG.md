@@ -139,3 +139,23 @@ code link per the DELIVERY CONTRACT format).
 
 **Status: review cut DONE.** Passed every Phase-3 gate. Proceeding to
 Phase 4 (4K render + deliver.py) in this same invocation.
+
+## 2026-08-30 — Phase 4 delivery
+
+Master is already 3840x2160 (THE 4K LAW in compile.py forces any clean,
+non-`--review` master to 4K), so the Fellows-facing 4K file is the same
+render, copied to the `-4k` filename `deliver.py` expects:
+
+```
+cp claude-for-legal--claude-liam-gap-surfacer.mp4 \
+   claude-for-legal--claude-liam-gap-surfacer-4k.mp4
+python3 skills/make/hai-simple/loop/deliver.py <REEL_DIR> --push
+```
+
+Outbox staged: `DELIVERY/claude-for-legal--claude-liam-gap-surfacer/`
+(4K mp4 + description.md). Repo: committed + pushed to
+`humanitarians-youtube/claude-bear/claude-for-legal--claude-liam-gap-surfacer/`
+(README.md, beat_sheet.json, SCRIPT.md, SUBJECT.json, BUILD-LOG.md,
+CARRY-OUT.md, QUESTION.md — no mp3/mp4), commit `bff9ac90`.
+
+**Status: DELIVERED.** Both delivery targets staged/pushed. Reel complete.
