@@ -111,3 +111,20 @@ DELIVERY CONTRACT format).
 
 **Status: review cut DONE.** Passed every Phase-3 gate. Proceeding to Phase 4 (4K
 render + deliver.py) in this same invocation.
+
+## 2026-08-30 — Phase 4 delivery
+
+- **4K master:** `compile.py` without `--review` enforces its 4K LAW automatically —
+  wrote `claude-for-legal--claude-liam-fto-triage.mp4` natively at 3840x2160
+  (Remotion beats were already rendered at native 4K), 75.1s, 8/8 beats real,
+  mean_volume -23.9 dB. Copied to `-4k.mp4` so `deliver.py`'s `newest_master()` picks
+  it as the explicit 4K variant.
+- **Delivered:** `deliver.py --push` — outbox
+  `DELIVERY/claude-for-legal--claude-liam-fto-triage/` (4K master + description, syncs
+  to Drive `Claude_Bear/` on this machine's Drive-for-desktop mount); repo
+  `humanitarians-youtube/claude-bear/claude-for-legal--claude-liam-fto-triage/`
+  (README.md + beat_sheet.json + SCRIPT.md + SUBJECT.json + BUILD-LOG.md +
+  CARRY-OUT.md + QUESTION.md — no media). Commit `c223cf46`, pushed clean (verified
+  `git log` + `git status` against `origin/main`).
+
+**Status: DELIVERED.**
