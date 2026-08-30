@@ -137,12 +137,20 @@ the `"hai-simple"` prefix (this reel's own `skill` field / parent
 directory), which resolves to **"Claude Basics."** Not the bare "Claude,"
 per the PLAYLIST LAW.
 
-**Delivery:** produced `claude-for-legal--claude-liam-investigation-memo-
-4k.mp4` and ran `deliver.py --push` to stage
-`DELIVERY/claude-for-legal--claude-liam-investigation-memo/` and commit
-text artifacts to the humanitarians-youtube clone under
-`claude-bear/claude-for-legal--claude-liam-investigation-memo/`. See the
-delivery entry below for outcome.
+**Delivery:** `claude-for-legal--claude-liam-investigation-memo-4k.mp4`
+created — a copy of the compiled master, which was already genuine
+3840×2160 (the Remotion beats are natively 4K; the Manim beats are 1080p
+source upscaled into the 4K canvas by the compile step itself, same as
+every other GRAPHIC beat in this pipeline). Wrote
+`claude-for-legal--claude-liam-investigation-memo.md` (YouTube description,
+@HumanitariansAI, playlist "Claude Basics", direct code link, AI
+disclosure). Ran `deliver.py --push`, which staged
+`DELIVERY/claude-for-legal--claude-liam-investigation-memo/` (4K master +
+description) and committed the text artifacts (README.md, beat_sheet.json,
+SCRIPT.md, SUBJECT.json, BUILD-LOG.md, CARRY-OUT.md, QUESTION.md) to the
+humanitarians-youtube clone under
+`claude-bear/claude-for-legal--claude-liam-investigation-memo/` — reported
+"repo: committed + pushed".
 
 **Status: DONE.** Review cut passes every gate (content-check, frame-check,
 lane-check, GATE AUDIO, GATE T, Gate V by eye). Source-fidelity gap logged
