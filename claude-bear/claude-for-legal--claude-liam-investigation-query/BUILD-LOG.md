@@ -108,11 +108,20 @@ matches no prefix in `loop/playlists.json`'s map directly; fell through to
 the `"hai-simple"` prefix (this reel's own `skill` field), which resolves
 to **"Claude Basics."** Not the bare "Claude."
 
-**Delivery:** proceeding to 4K render + `deliver.py --push` this same
-invocation; see the entry appended below once complete.
+**Delivery:** `claude-for-legal--claude-liam-investigation-query-4k.mp4`
+created — a copy of the compiled master, which was already genuine
+3840x2160 (Remotion beats natively 4K; Manim beats upscaled into the 4K
+canvas by compile.py itself). Ran `deliver.py --push`: staged
+`DELIVERY/claude-for-legal--claude-liam-investigation-query/` (4K master +
+description) for the Drive sync, and committed the text artifacts
+(README.md, beat_sheet.json, SCRIPT.md, SUBJECT.json, BUILD-LOG.md,
+CARRY-OUT.md, QUESTION.md — no media) to
+`humanitarians-youtube/claude-bear/claude-for-legal--claude-liam-investigation-query/`,
+commit `fe924d49`, pushed.
 
-**Status: review cut DONE.** All gates pass (content-check, frame-check,
-lane-check, GATE AUDIO, GATE T, Gate V by eye). Source-fidelity gap logged
-above and in QUESTION.md/SCRIPT.md/the description's "Deliberately not
-claimed" section — nothing about the actual employment-legal
-investigation-query procedure is asserted anywhere in this reel.
+**Status: DONE.** Review cut passes every gate (content-check, frame-check,
+lane-check, GATE AUDIO, GATE T, Gate V by eye). Delivered to both targets.
+Source-fidelity gap logged above and in QUESTION.md/SCRIPT.md/the
+description's "Deliberately not claimed" section — nothing about the actual
+employment-legal investigation-query procedure is asserted anywhere in this
+reel.
