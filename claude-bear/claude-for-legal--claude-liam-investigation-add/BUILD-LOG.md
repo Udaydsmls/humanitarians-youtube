@@ -126,12 +126,23 @@ the `"hai-simple"` prefix (this reel's own `skill` field / parent
 directory), which resolves to **"Claude Basics."** Not the bare "Claude,"
 per the PLAYLIST LAW.
 
-**Delivery:** pending — 4K master and `deliver.py --push` to run next
-(PHASE 4), after this review-cut log is written per the COMPLETION LAW.
+**Delivery:** `claude-for-legal--claude-liam-investigation-add-4k.mp4`
+created — a copy of the compiled master, which was already genuine
+3840x2160 (the Remotion beats are natively 4K; the Manim beats are 1080p
+source upscaled into the 4K canvas by the compile step itself, same as
+every other GRAPHIC beat in this pipeline). Wrote
+`claude-for-legal--claude-liam-investigation-add.md` (YouTube description,
+@HumanitariansAI, playlist "Claude Basics", direct code link, AI
+disclosure). Ran `deliver.py --push`: staged
+`DELIVERY/claude-for-legal--claude-liam-investigation-add/` (4K master +
+description) and committed the text artifacts to the humanitarians-youtube
+clone under `claude-bear/claude-for-legal--claude-liam-investigation-add/`
+(README.md, beat_sheet.json, SCRIPT.md, SUBJECT.json, BUILD-LOG.md,
+CARRY-OUT.md, QUESTION.md) - commit + push confirmed.
 
-**Status: review cut DONE.** Passes every review-cut gate (content-check,
-frame-check, lane-check, GATE AUDIO, GATE T, Gate V by eye). Source-fidelity
-gap logged above and in QUESTION.md/SCRIPT.md/the description's
-"Deliberately not claimed" section — nothing about the actual
-employment-legal investigation-add procedure is asserted anywhere in this
-reel.
+**Status: DONE.** Review cut passes every gate (content-check, frame-check,
+lane-check, GATE AUDIO, GATE T, Gate V by eye). Delivery staged to both
+targets. Source-fidelity gap logged above and in QUESTION.md/SCRIPT.md/the
+description's "Deliberately not claimed" section - nothing about the
+actual employment-legal investigation-add procedure is asserted anywhere in
+this reel.
