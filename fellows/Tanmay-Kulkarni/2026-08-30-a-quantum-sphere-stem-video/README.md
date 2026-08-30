@@ -12,8 +12,8 @@ this repo.
 
 | Cut | Aspect | Link |
 |---|---|---|
-| **Long** | 16:9 | <!-- VIDEO_LINK_LONG --> _pending_ |
-| **Short** | 9:16 | <!-- VIDEO_LINK_SHORT --> _pending_ |
+| **Long** | 16:9 | <!-- VIDEO_LINK_LONG --> [Watch on Drive](https://drive.google.com/file/d/1t0rMN1RNk7W9QAHmi1zDq2uAPDjDNTxu/view?usp=sharing) |
+| **Short** | 9:16 | <!-- VIDEO_LINK_SHORT --> [Watch on Drive](https://drive.google.com/file/d/1pAGMHPdoRqDzHQefD2y-SNqToxqb6HjI/view?usp=sharing) |
 
 ## The two cuts
 
