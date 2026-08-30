@@ -152,5 +152,20 @@ Phase 4 (4K render + deliver.py) in this same invocation.
 
 Master is already 3840x2160 (THE 4K LAW in compile.py forces any clean,
 non-`--review` master to 4K), so the Fellows-facing 4K file is the same
-render, copied to the `-4k` filename `deliver.py` expects, then packaged
-and pushed.
+render, copied to the `-4k` filename `deliver.py` expects:
+
+```
+cp claude-for-legal--claude-liam-is-this-a-problem.mp4 \
+   claude-for-legal--claude-liam-is-this-a-problem-4k.mp4
+python3 skills/make/hai-simple/loop/deliver.py <REEL_DIR> --push
+```
+
+Result: outbox staged at
+`DELIVERY/claude-for-legal--claude-liam-is-this-a-problem/` (4K mp4 +
+description); repo copy staged at
+`humanitarians-youtube/claude-bear/claude-for-legal--claude-liam-is-this-a-problem/`
+(README.md, beat_sheet.json, SCRIPT.md, SUBJECT.json, BUILD-LOG.md,
+CARRY-OUT.md, QUESTION.md — no media); committed (`f6fc577a`) and pushed
+to github.com/nikbearbrown/humanitarians-youtube.
+
+**Status: DELIVERED.**
