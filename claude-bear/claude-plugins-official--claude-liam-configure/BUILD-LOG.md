@@ -153,3 +153,22 @@ claude-liam-agent-development` sibling built earlier in this same family.
 Direct code link per DELIVERY CONTRACT format included.
 
 **Status: review cut DONE.** Passed every Phase-3 gate.
+
+## 2026-08-31 — Phase 4, DELIVERED
+
+Master was already born native 3840×2160 (compile.py's 4K LAW), so copied
+directly to `claude-plugins-official--claude-liam-configure-4k.mp4` rather
+than re-rendering at a higher resolution.
+
+```
+python3 skills/make/hai-simple/loop/deliver.py <REEL_DIR> --push
+```
+
+Staged `DELIVERY/claude-plugins-official--claude-liam-configure/` (4K
+master + description) for the Drive sync. Committed to
+`claude-bear/claude-plugins-official--claude-liam-configure/` (README.md =
+description, beat_sheet.json, SCRIPT.md, SUBJECT.json, CARRY-OUT.md,
+QUESTION.md, BUILD-LOG.md — no mp3/mp4) as commit `223b863a`, pushed clean
+(no rebase conflicts).
+
+**Status: DELIVERED.**
