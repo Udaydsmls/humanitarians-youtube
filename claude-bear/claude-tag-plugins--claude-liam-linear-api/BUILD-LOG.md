@@ -174,3 +174,22 @@ fallback used on every other `claude-tag-plugins--*` sibling. Direct code
 link per DELIVERY CONTRACT format included.
 
 **Status: review cut DONE.** Passed every Phase-3 gate.
+
+## 2026-08-31 — Phase 4, DELIVERED
+
+Master was already born native 3840×2160 (compile.py's 4K LAW), so copied
+directly to `claude-tag-plugins--claude-liam-linear-api-4k.mp4` rather than
+re-rendering at a higher resolution.
+
+```
+python3 skills/make/hai-simple/loop/deliver.py <REEL_DIR> --push
+```
+
+Staged `DELIVERY/claude-tag-plugins--claude-liam-linear-api/` (4K master +
+description) for the Drive sync. Committed to
+`claude-bear/claude-tag-plugins--claude-liam-linear-api/` (README.md =
+description, beat_sheet.json, SCRIPT.md, SUBJECT.json, CARRY-OUT.md,
+QUESTION.md, BUILD-LOG.md — no mp3/mp4) as commit `6239062b`, pushed clean
+(no rebase conflicts).
+
+**Status: DELIVERED.**
