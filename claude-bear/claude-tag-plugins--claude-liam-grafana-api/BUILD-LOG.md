@@ -141,3 +141,23 @@ link per the DELIVERY CONTRACT format).
 
 **Status: review cut DONE.** Passed every Phase-3 gate. Proceeding to Phase 4
 (4K render + deliver.py) in this same invocation.
+
+## 2026-08-31 — Phase 4 delivery
+
+- **4K master:** `compile.py` without `--review` enforces its 4K LAW
+  automatically — wrote `claude-tag-plugins--claude-liam-grafana-api.mp4`
+  natively at 3840×2160 (Remotion beats were already rendered at native 4K),
+  169.0s, 8/8 beats real, mean_volume -24.0 dB (independently re-verified via
+  ffmpeg volumedetect after the 4K compile, not just the compile step's own
+  report). Copied to `-4k.mp4` so `deliver.py`'s `newest_master()` picks it as
+  the explicit 4K variant.
+- **Delivered:** `deliver.py --push` — outbox
+  `DELIVERY/claude-tag-plugins--claude-liam-grafana-api/` (4K master +
+  description, syncs to Drive `Claude_Bear/` on this machine's Drive-for-desktop
+  mount); repo
+  `humanitarians-youtube/claude-bear/claude-tag-plugins--claude-liam-grafana-api/`
+  (README.md + beat_sheet.json + SCRIPT.md + SUBJECT.json + BUILD-LOG.md +
+  CARRY-OUT.md + QUESTION.md — no media). Commit `bc6e6c0b`, pushed clean
+  (verified `git log origin/main..HEAD` is empty against `origin/main`).
+
+**Status: DELIVERED.**
