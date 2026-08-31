@@ -192,3 +192,13 @@ cp claude-tag-plugins--claude-liam-jira-api.mp4 \
    claude-tag-plugins--claude-liam-jira-api-4k.mp4
 python3 skills/make/hai-simple/loop/deliver.py <REEL_DIR> --push
 ```
+
+Staged to `DELIVERY/claude-tag-plugins--claude-liam-jira-api/` (4K master +
+description) and committed + pushed the text artifacts (README.md =
+description, beat_sheet.json, SCRIPT.md, SUBJECT.json, BUILD-LOG.md,
+CARRY-OUT.md, QUESTION.md — no media) to
+`claude-bear/claude-tag-plugins--claude-liam-jira-api/` in the
+humanitarians-youtube clone: commit `886015e8`, pushed clean (`git status
+--short` empty after).
+
+**Status: DELIVERED.**
