@@ -99,3 +99,29 @@ consistent with every other `claude-plugins-official` sibling. Direct code
 link per DELIVERY CONTRACT format included.
 
 **Status: review cut DONE.** Passed every Phase-3 gate.
+
+## 2026-08-31 — Phase 4, DELIVERED
+
+Compiled the final (non-`--review`) cut — compile.py's 4K LAW forced the
+master from the review cut's 720p to native 2160p automatically:
+
+```
+python3 runtime/scripts/compile.py <REEL_DIR> --force
+```
+
+Result: `claude-plugins-official--claude-liam-example-command.mp4`, 17/17
+beats real, 184.0s, 3840×2160, mean_volume -23.9 dB (re-verified). Copied
+to `claude-plugins-official--claude-liam-example-command-4k.mp4`.
+
+```
+python3 skills/make/hai-simple/loop/deliver.py <REEL_DIR> --push
+```
+
+Staged `DELIVERY/claude-plugins-official--claude-liam-example-command/`
+(4K master + description) for the Drive sync. Committed to
+`claude-bear/claude-plugins-official--claude-liam-example-command/`
+(README.md, beat_sheet.json, SCRIPT.md, SUBJECT.json, CARRY-OUT.md,
+QUESTION.md, BUILD-LOG.md — no mp3/mp4) as commit `1c76a323`, pushed clean
+(no rebase conflicts).
+
+**Status: DELIVERED.**
