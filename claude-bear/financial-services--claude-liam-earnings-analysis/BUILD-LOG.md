@@ -131,6 +131,27 @@ python3 skills/make/hai-simple/loop/deliver.py <REEL_DIR> --push
 Staged `DELIVERY/financial-services--claude-liam-earnings-analysis/` (4K
 master + description) for the Drive sync. Committed text artifacts (no
 mp3/mp4) to the `humanitarians-youtube` clone under
-`claude-bear/financial-services--claude-liam-earnings-analysis/`.
+`claude-bear/financial-services--claude-liam-earnings-analysis/`,
+committed (`cc0771c5`) and pushed clean.
+
+**Playlist correction:** the initial delivery used "Extending Claude —
+Skills, Plugins & Connectors" by analogy to the `books--claude-liam-what-
+plugins-are` redo's content-matching precedent. Checking HAILOOP-LOG.md
+against every actual `financial-services--*` sibling delivered so far
+(dd-checklist, dd-meeting-prep, deal-screening, deal-sourcing,
+deal-tracker, deck-refresh) showed all of them — including several that
+are themselves skill-teardown explainers of an Anthropic Skill's generic
+mechanism, same as this reel — consistently resolve to **Claude Basics**
+via the `hai-simple` skill-key fallback, since the `financial-services`
+family matches no playlists.json map prefix. The `books`-family precedent
+does not extend to `financial-services`. Corrected `metadata.playlist` to
+"Claude Basics" in `beat_sheet.json` and the `.md` description,
+recompiled (`compile.py --force` — identical 77.0s/3840x2160/7-beat
+output, GATE AUDIO -24.2 dB unchanged, GATE T re-confirmed PASS 0 FAILs),
+regenerated the `-4k.mp4` copy (the stale one was auto-purged by
+compile.py's QC stale-purge since it predated the recompile), and pushed a
+second commit (`e901bb9f`) with the corrected files — never `--amend`, per
+the same never-amend pattern already logged on the `deal-screening` and
+`deck-refresh` siblings' post-push BUILD-LOG syncs.
 
 **Status: DELIVERED.**
