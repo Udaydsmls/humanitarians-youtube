@@ -175,4 +175,19 @@ against the map instead, hitting the `"hai-simple"` key directly →
 
 ## 2026-09-01 — Phase 4, DELIVERED
 
-See delivery log entry below (deliver.py run).
+Master was already born native 3840×2160 (compile.py's 4K LAW), so copied
+directly to `financial-services--claude-liam-comps-analysis-4k.mp4` rather
+than re-rendering at a higher resolution.
+
+```
+python3 skills/make/hai-simple/loop/deliver.py <REEL_DIR> --push
+```
+
+Staged `DELIVERY/financial-services--claude-liam-comps-analysis/` (4K
+master + description) for the Drive sync. Committed to
+`claude-bear/financial-services--claude-liam-comps-analysis/` (README.md
+= description, beat_sheet.json, SCRIPT.md, SUBJECT.json, CARRY-OUT.md,
+QUESTION.md, BUILD-LOG.md — no mp3/mp4) as commit `323a9b7`, pushed clean
+(no rebase conflicts).
+
+**Status: DELIVERED.**
