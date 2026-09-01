@@ -89,5 +89,7 @@ meets the Fellows-facing resolution target). Playlist: Claude Basics
 (`family: cwc-workshops` matches no `playlists.json` prefix; the `hai-simple`
 skill-key entry resolves it, same fallback as every other `cwc-workshops--*`
 sibling). `<slug>.md` written with chapters computed from actual
-`actual_duration_s` cumulative offsets. `deliver.py --push` run to stage
-DELIVERY/ outbox + commit text artifacts to humanitarians-youtube.
+`actual_duration_s` cumulative offsets. `deliver.py --push` staged
+DELIVERY/cwc-workshops--claude-liam-eval-audit-and-sweep/ (4K + description)
+and committed+pushed the text artifacts to humanitarians-youtube
+(commit `71428bd0`). DONE.
