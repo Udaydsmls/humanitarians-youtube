@@ -145,4 +145,18 @@ invocation.
 
 Master is already 3840x2160 (THE 4K LAW in compile.py forces any clean,
 non-`--review` master to 4K), so the Fellows-facing 4K file is the same
-render, copied to the `-4k` filename `deliver.py` expects.
+render, copied to the `-4k` filename `deliver.py` expects:
+
+```
+cp financial-services--claude-liam-3-statement-model.mp4 \
+   financial-services--claude-liam-3-statement-model-4k.mp4
+python3 skills/make/hai-simple/loop/deliver.py <REEL_DIR> --push
+```
+
+Outbox staged: `DELIVERY/financial-services--claude-liam-3-statement-model/`
+(4K mp4 + description.md). Repo: committed + pushed to
+`humanitarians-youtube/claude-bear/financial-services--claude-liam-3-statement-model/`
+(README.md, beat_sheet.json, SCRIPT.md, SUBJECT.json, BUILD-LOG.md,
+CARRY-OUT.md, QUESTION.md — no mp3/mp4), commit `e7214a0e`.
+
+**Status: DELIVERED.** Both delivery targets staged/pushed. Reel complete.
