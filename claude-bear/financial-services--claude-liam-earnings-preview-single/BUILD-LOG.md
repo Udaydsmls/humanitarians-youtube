@@ -127,9 +127,21 @@ matches no prefix in `loop/playlists.json`'s map directly; fell through to
 the `"hai-simple"` prefix (this reel's own `skill` field), which resolves to
 **"Claude Basics."** Not the bare "Claude," per the PLAYLIST LAW.
 
-**Status: DONE.** Review cut passes every gate (content-check, frame-check,
-lane-check, GATE AUDIO, GATE T, Gate V by eye). Source-fidelity note logged
-above and in QUESTION.md/SCRIPT.md/the description's "Deliberately not
-claimed" section — nothing about report-template.md's actual internal
-wording or SKILL.md's full instruction text is asserted anywhere in this
-reel.
+**Delivery:** `financial-services--claude-liam-earnings-preview-single-4k.mp4`
+created — a copy of the compiled master, which was already genuine
+3840×2160 (compile.py's 4K LAW forced a native 4K master; no separate 4K
+re-render needed). Wrote
+`financial-services--claude-liam-earnings-preview-single.md` (YouTube
+description, @HumanitariansAI, playlist "Claude Basics", direct code link,
+AI disclosure). Ran `deliver.py --push` to stage
+`DELIVERY/financial-services--claude-liam-earnings-preview-single/` and
+commit text artifacts to the humanitarians-youtube clone under
+`claude-bear/financial-services--claude-liam-earnings-preview-single/`
+(commit `c7bfc90f`).
+
+**Status: DELIVERED.** Review cut passes every gate (content-check,
+frame-check, lane-check, GATE AUDIO, GATE T, Gate V by eye). Source-fidelity
+note logged above and in QUESTION.md/SCRIPT.md/the description's
+"Deliberately not claimed" section — nothing about report-template.md's
+actual internal wording or SKILL.md's full instruction text is asserted
+anywhere in this reel.
