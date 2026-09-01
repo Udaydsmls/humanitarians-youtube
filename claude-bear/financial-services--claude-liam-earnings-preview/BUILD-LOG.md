@@ -131,3 +131,22 @@ from an earlier, wrong analogy attempt. Direct code link per DELIVERY
 CONTRACT format included.
 
 **Status: review cut DONE.** Passed every Phase-3 gate.
+
+## 2026-09-01 — Phase 4, DELIVERED
+
+Master was already born native 3840x2160 (compile.py's 4K LAW), so copied
+directly to `financial-services--claude-liam-earnings-preview-4k.mp4`
+rather than re-rendering at a higher resolution.
+
+```
+python3 skills/make/hai-simple/loop/deliver.py <REEL_DIR> --push
+```
+
+Staged `DELIVERY/financial-services--claude-liam-earnings-preview/` (4K
+master + description) for the Drive sync. Committed text artifacts (no
+mp3/mp4) to the `humanitarians-youtube` clone under
+`claude-bear/financial-services--claude-liam-earnings-preview/`, committed
+(`16cab5cc`) and pushed clean — no repo `git pull --rebase` quirk this
+time (unlike a couple of earlier siblings' logs).
+
+**Status: DELIVERED.**
