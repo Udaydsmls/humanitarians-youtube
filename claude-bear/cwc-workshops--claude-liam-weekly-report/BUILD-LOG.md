@@ -94,4 +94,20 @@ Phase 4 (4K package + deliver.py) in this same invocation.
 
 Master is already 3840x2160 (THE 4K LAW in compile.py forces any clean,
 non-`--review` master to 4K), so the Fellows-facing 4K file is the same
-render, copied to the `-4k` filename `deliver.py` expects.
+render, copied to the `-4k` filename `deliver.py` expects:
+
+```
+cp cwc-workshops--claude-liam-weekly-report.mp4 \
+   cwc-workshops--claude-liam-weekly-report-4k.mp4
+python3 skills/make/hai-simple/loop/deliver.py <REEL_DIR> --push
+```
+
+Staged to `DELIVERY/cwc-workshops--claude-liam-weekly-report/` (4K master +
+description) and committed + pushed the text artifacts (README.md =
+description, beat_sheet.json, SCRIPT.md, SUBJECT.json, BUILD-LOG.md,
+CARRY-OUT.md, QUESTION.md — no media) to
+`claude-bear/cwc-workshops--claude-liam-weekly-report/` in the
+humanitarians-youtube clone: commit `94c327ce`, pushed clean (`git status
+--short` empty after).
+
+**Status: DELIVERED.**
