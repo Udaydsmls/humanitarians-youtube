@@ -103,7 +103,10 @@ beats filled real (no slate), 84.4s, 3840×2160 (native 4K — `compile.py`'s
   sparkline read clean), BHTF (correct topic/title/@HumanitariansAI handle,
   paste-ready prompt legible), and BOUT (OutroSeries: correct eyebrow
   "COMPETITIVE ANALYSIS · @HumanitariansAI", correct title restate, crimson
-  underline, no truncation). No blockers.
+  underline, no truncation). No blockers. Noted, not a defect: `OutroSeries`
+  renders on flat white rather than the humanitarians cream ground, same
+  shared-component behavior already logged unremarked across every other
+  `financial-services--*` sibling in this loop.
 - B00 TIMING LAW: `actual_duration_s` 11.29s (≥8s requirement met); the
   "judged" → "processed" correction lands on screen well before the clip's
   midpoint and stays legible for the remainder.
@@ -118,3 +121,22 @@ the `hai-simple` skill-key entry, which resolves directly to "Claude Basics"
 link per DELIVERY CONTRACT format included.
 
 **Status: review cut DONE.** Passed every Phase-3 gate.
+
+## 2026-09-01 — Phase 4, DELIVERED
+
+Master was already born native 3840×2160 (compile.py's 4K LAW), so copied
+directly to `financial-services--claude-liam-competitive-analysis-4k.mp4`
+rather than re-rendering at a higher resolution.
+
+```
+python3 skills/make/hai-simple/loop/deliver.py <REEL_DIR> --push
+```
+
+Staged `DELIVERY/financial-services--claude-liam-competitive-analysis/`
+(4K master + description) for the Drive sync. Committed to
+`claude-bear/financial-services--claude-liam-competitive-analysis/`
+(README.md = description, beat_sheet.json, SCRIPT.md, SUBJECT.json,
+CARRY-OUT.md, QUESTION.md, BUILD-LOG.md — no mp3/mp4) as commit `75f45c8e`,
+pushed clean (no rebase conflicts).
+
+**Status: DELIVERED.**
