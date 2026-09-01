@@ -1,6 +1,6 @@
 # BUILD-LOG — financial-services--claude-liam-deal-sourcing
 
-## 2026-09-01 — review cut, DONE
+## 2026-09-01 — review cut, DELIVERED
 
 Redo-mode build (`mode: "redo"`) of
 `anthropics/financial-services/youtube/claude-liam-deal-sourcing/beat_sheet.json`
@@ -108,3 +108,14 @@ was not touched again after that final compile, per the COMPLETION LAW).
 **Playlist:** `financial-services` is not itself in playlists.json's map;
 per the redo instructions, matched the `hai-simple` prefix instead → "Claude
 Basics" (same resolution as every other hai-simple redo to date).
+
+**Phase 4 — delivery:** compile.py's 4K LAW already produced the master
+natively at 3840×2160, so `<slug>-4k.mp4` was made as a direct copy (no
+separate upscale render needed). Ran
+`python3 skills/make/hai-simple/loop/deliver.py <reel_dir> --push`: staged
+`DELIVERY/financial-services--claude-liam-deal-sourcing/` (4K master +
+description) for the Drive sync, and committed/pushed the text artifacts
+(README.md = description, beat_sheet.json, SCRIPT.md, SUBJECT.json,
+CARRY-OUT.md, QUESTION.md, BUILD-LOG.md) to
+`humanitarians-youtube/claude-bear/financial-services--claude-liam-deal-
+sourcing/` (commit `33fa5354`). Logged to HAILOOP-LOG.md.
