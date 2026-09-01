@@ -112,3 +112,24 @@ family `cwc-workshops` has no entry in playlists.json; falls through to the
 Direct code link per DELIVERY CONTRACT format included.
 
 **Status: review cut DONE.** Passed every Phase-3 gate.
+
+## 2026-08-31 — Phase 4, DELIVERED
+
+Master was already native 3840x2160 (compile.py's 4K LAW forced it directly
+off the full-length render — no separate low-res draft pass), so
+`<slug>-4k.mp4` is a copy of the same master (matches the sibling
+`cwc-workshops--agent-decomposition-skills-vs-tools` reel's precedent: same
+byte-identical pattern when no upscale is needed).
+
+Ran `python3 skills/make/hai-simple/loop/deliver.py <REEL> --push`:
+- Outbox: `DELIVERY/cwc-workshops--claude-liam-edgartools-sec-data/` (4K mp4 +
+  description) — `DELIVERY` is a live symlink straight into the Drive
+  `Claude_Bear` folder, so this already IS the Fellows-facing location, no
+  separate sync step needed.
+- Repo: `humanitarians-youtube/claude-bear/cwc-workshops--claude-liam-edgartools-sec-data/`
+  — README.md (= description), beat_sheet.json, SCRIPT.md, SUBJECT.json,
+  BUILD-LOG.md, CARRY-OUT.md, QUESTION.md. No mp3/mp4 present in the repo
+  copy (verified). Committed and pushed to `origin/main`
+  (`199b1f79`).
+
+**Status: DELIVERED.**
