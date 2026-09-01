@@ -101,18 +101,20 @@ build (compile.py logged none); the ratio follows this source's small
 followed its 18-beat count.
 
 Metadata file written: `financial-services--claude-liam-earnings-
-analysis.md` (channel @HumanitariansAI, **Playlist: Extending Claude —
-Skills, Plugins & Connectors**). Per playlists.json, SUBJECT.json's family
-("financial-services") has no literal map entry, and the mechanical
-skill-name fallback ("hai-simple" -> "Claude Basics") would misfile this —
-the reel's actual content is a direct explanation of the Claude Agent
-Skill mechanism (a folder, a SKILL.md, a Steps section) using
-earnings-analysis as the worked example, which is exactly the content this
-playlist exists for. Followed the same content-matching precedent already
-logged on `books--claude-liam-what-plugins-are`'s BUILD-LOG rather than
-falling through to `_default` or the skill-name match, and set it
-correctly in `beat_sheet.json` from the start. Direct code link per
-DELIVERY CONTRACT format included.
+analysis.md` (channel @HumanitariansAI, **Playlist: Claude Basics**). Per
+playlists.json, SUBJECT.json's family ("financial-services") matches no
+map prefix, so it falls through to the `hai-simple` skill-key fallback —
+the same resolution every other `financial-services--*` sibling in
+HAILOOP-LOG.md has logged (dd-checklist, dd-meeting-prep, deal-screening,
+deal-sourcing, deal-tracker, deck-refresh, …), including several that are
+also skill-teardown explainers of an Anthropic Skill's generic mechanism,
+exactly like this one. An earlier draft of this build reasoned toward
+"Extending Claude — Skills, Plugins & Connectors" by analogy to the
+`books--claude-liam-what-plugins-are` redo's content-matching precedent —
+but that precedent was logged for the `books` family specifically, and
+every actual `financial-services` sibling consistently uses the mechanical
+fallback instead. Corrected to match family convention before delivery.
+Direct code link per DELIVERY CONTRACT format included.
 
 **Status: review cut DONE.** Passed every Phase-3 gate.
 

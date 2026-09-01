@@ -12,7 +12,7 @@ outside it isn't part of what the file does. A skill doesn't make Claude
 smarter — it gives Claude one job, done the same way, every time.
 
 **Topic:** EARNINGS-ANALYSIS · ANTHROPIC SKILL
-**Playlist:** Extending Claude — Skills, Plugins & Connectors
+**Playlist:** Claude Basics
 **Code (no media):** https://github.com/nikbearbrown/humanitarians-youtube/tree/main/claude-bear/financial-services--claude-liam-earnings-analysis
 
 ---

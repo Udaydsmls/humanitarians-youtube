@@ -17,7 +17,7 @@
     "ground": "#F3EBDD",
     "folderLabel": "@HumanitariansAI",
     "channel_title": "@HumanitariansAI",
-    "playlist": "Extending Claude — Skills, Plugins & Connectors",
+    "playlist": "Claude Basics",
     "in_for_bear": true,
     "clock": "narration",
     "gate_c": "SIGNED - CARRY-OUT.md",
@@ -25,7 +25,7 @@
     "anchor_pair": "N/A - source has no planted scenario (see SCRIPT.md six-move audit)",
     "one_flag": "N/A - direct mechanism description throughout (see SCRIPT.md One-flag audit)",
     "build": {
-      "at": "2026-09-01T15:45:18",
+      "at": "2026-09-01T15:50:37",
       "cut": "master",
       "filled": 7,
       "of": 7,
@@ -78,7 +78,7 @@
         "status": "VIDEO",
         "src": "media/B00.mp4",
         "filled_by": "media",
-        "at": "2026-09-01T15:45:18"
+        "at": "2026-09-01T15:50:37"
       }
     },
     {
@@ -121,7 +121,7 @@
         "status": "MANIM",
         "src": "manim/NB01.mp4",
         "filled_by": "manim",
-        "at": "2026-09-01T15:45:18"
+        "at": "2026-09-01T15:50:37"
       }
     },
     {
@@ -165,7 +165,7 @@
         "status": "MANIM",
         "src": "manim/NB02.mp4",
         "filled_by": "manim",
-        "at": "2026-09-01T15:45:18"
+        "at": "2026-09-01T15:50:37"
       }
     },
     {
@@ -210,7 +210,7 @@
         "status": "MANIM",
         "src": "manim/NB03.mp4",
         "filled_by": "manim",
-        "at": "2026-09-01T15:45:18"
+        "at": "2026-09-01T15:50:37"
       }
     },
     {
@@ -243,7 +243,7 @@
         "status": "VIDEO",
         "src": "media/BCRY.mp4",
         "filled_by": "media",
-        "at": "2026-09-01T15:45:18"
+        "at": "2026-09-01T15:50:37"
       }
     },
     {
@@ -278,7 +278,7 @@
         "status": "VIDEO",
         "src": "media/BHTF.mp4",
         "filled_by": "media",
-        "at": "2026-09-01T15:45:18"
+        "at": "2026-09-01T15:50:37"
       }
     },
     {
@@ -309,7 +309,7 @@
         "status": "VIDEO",
         "src": "media/BOUT.mp4",
         "filled_by": "media",
-        "at": "2026-09-01T15:45:18"
+        "at": "2026-09-01T15:50:37"
       }
     }
   ]
