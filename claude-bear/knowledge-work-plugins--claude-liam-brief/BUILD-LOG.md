@@ -118,6 +118,12 @@ human-drop slot.
 
 ## Delivery
 
-Phase 4 (4K render + `deliver.py --push`) not yet run this invocation — see
-follow-up entry below if completed in the same session, or the next
-invocation's log if picked up later.
+Phase 4 completed this invocation. The master is born natively at
+3840x2160 via `compile.py`'s 4K LAW, so no separate 4K re-render was
+needed — copied directly to `knowledge-work-plugins--claude-liam-brief-4k.mp4`.
+`deliver.py --push` staged `DELIVERY/knowledge-work-plugins--claude-liam-brief/`
+(4K master + description) for the Drive sync, and committed + pushed
+`claude-bear/knowledge-work-plugins--claude-liam-brief/` (README.md,
+beat_sheet.json, SCRIPT.md, SUBJECT.json, BUILD-LOG.md, CARRY-OUT.md,
+QUESTION.md — no media) to `humanitarians-youtube` (commit `f42a1e5a`),
+clean, no conflicts. `HAILOOP-LOG.md` updated with the matching entry.
