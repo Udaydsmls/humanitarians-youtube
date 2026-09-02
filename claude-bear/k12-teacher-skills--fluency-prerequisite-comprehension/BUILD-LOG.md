@@ -99,3 +99,18 @@ no map prefix; falls through to the `hai-simple` skill-key match (->
 this week. Direct code link per DELIVERY CONTRACT format included.
 
 **Status: review cut DONE.** Passed every Phase-3 gate.
+
+## 2026-09-02 — Phase 4, delivery
+
+Master was already born native 3840x2160 (compile.py's 4K LAW), so
+`k12-teacher-skills--fluency-prerequisite-comprehension-4k.mp4` was copied
+directly from the review master with no re-render needed (same as the
+`cra-progression-scaffold` sibling). Ran
+`deliver.py <reel_dir> --push`: staged `DELIVERY/k12-teacher-skills--
+fluency-prerequisite-comprehension/` (4K mp4 + description) for the Drive
+sync, and copied text artifacts (README.md=description, beat_sheet.json,
+SCRIPT.md, SUBJECT.json, BUILD-LOG.md, CARRY-OUT.md, QUESTION.md) into
+`humanitarians-youtube/claude-bear/k12-teacher-skills--fluency-prerequisite-
+comprehension/`, committed, and pushed (no mp3/mp4 entered the repo copy).
+
+**Status: DELIVERED.**
