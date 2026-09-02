@@ -136,3 +136,24 @@ Connectors** — per playlists.json, `knowledge-work-plugins` maps directly
 to this playlist). Direct code link per DELIVERY CONTRACT format included.
 
 **Status: review cut DONE.** Passed every Phase-3 gate.
+
+## 2026-09-02 — Phase 4, DELIVERED
+
+Master was already born native 3840×2160 (compile.py's 4K LAW), so copied
+directly to
+`knowledge-work-plugins--claude-liam-build-zoom-rest-api-app-4k.mp4` rather
+than re-rendering.
+
+```
+python3 skills/make/hai-simple/loop/deliver.py <REEL_DIR> --push
+```
+
+Staged
+`DELIVERY/knowledge-work-plugins--claude-liam-build-zoom-rest-api-app/`
+(4K master + description) for the Drive sync. Committed to
+`claude-bear/knowledge-work-plugins--claude-liam-build-zoom-rest-api-app/`
+(README.md = description, beat_sheet.json, SCRIPT.md, SUBJECT.json,
+CARRY-OUT.md, QUESTION.md, BUILD-LOG.md — no mp3/mp4) as commit
+`caa4a472`, pushed clean (no rebase conflicts).
+
+**Status: DELIVERED.**
