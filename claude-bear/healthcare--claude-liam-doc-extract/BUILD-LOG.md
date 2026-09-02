@@ -128,17 +128,20 @@ volumedetect`: mean_volume **-24.0 dB**, max -2.9 dB — comfortably above the
 -40 dB floor.
 
 Metadata file written: `healthcare--claude-liam-doc-extract.md` (channel
-@HumanitariansAI). **Playlist note:** `SUBJECT.json`'s `family` is
-`"healthcare"`, which has no entry in
-`skills/make/hai-simple/loop/playlists.json`'s map, and the skill field
-`hai-simple` mechanically resolves to `"Claude Basics"` — but the reel's
-actual subject is a Claude Agent Skill (`SKILL.md`, folder Claude reads
-before acting), squarely on-topic for the map's `claude-skills` /
-`claude-agent-skills` / `claude-plugins` / `claude-mcp-connectors` keys, all
-of which resolve to **"Extending Claude — Skills, Plugins & Connectors"**.
-Matched on content over the mechanical fallback, same precedent set by the
-`books--claude-liam-building-plugins` sibling redo. Description also
-carries the direct code link per the DELIVERY CONTRACT format.
+@HumanitariansAI). **Playlist: Claude Basics** — `SUBJECT.json`'s `family`
+is `"healthcare"`, which has no entry in
+`skills/make/hai-simple/loop/playlists.json`'s map, so resolution falls
+through to the `hai-simple` skill-prefix key, `"Claude Basics"`. (First
+pass of this file argued for a content-based override to "Extending Claude
+— Skills, Plugins & Connectors" on the `books--claude-liam-building-plugins`
+sibling's precedent — reverted after checking `HAILOOP-LOG.md`: every other
+healthcare-family skill-teardown redo in this same batch
+(`clinical-note-extract-skill`, `clinical-trial-protocol-skill`,
+`contracts`) is equally "about a Claude Skill" and all of them resolved to
+`Claude Basics` via the mechanical `hai-simple` fallback with no override.
+Matching the batch's actual established convention beats a one-off
+precedent from a different family.) Description also carries the direct
+code link per the DELIVERY CONTRACT format.
 
 **Status: review cut DONE.** Passed every Phase-3 gate. Proceeding to
 Phase 4 (4K render + deliver.py) in this same invocation.

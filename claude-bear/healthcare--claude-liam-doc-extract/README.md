@@ -10,7 +10,7 @@ text, and understanding that text, are two different jobs, and this skill
 only does the first one.
 
 **Topic:** DOC-EXTRACT · ANTHROPIC SKILL
-**Playlist:** Extending Claude — Skills, Plugins & Connectors
+**Playlist:** Claude Basics
 **Code (no media):** https://github.com/nikbearbrown/humanitarians-youtube/tree/main/claude-bear/healthcare--claude-liam-doc-extract
 
 ---
