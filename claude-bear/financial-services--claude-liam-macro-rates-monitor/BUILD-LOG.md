@@ -128,3 +128,23 @@ the DELIVERY CONTRACT format).
 
 **Status: review cut DONE.** Passed every Phase-3 gate. Proceeding to
 Phase 4 (4K render + deliver.py) in this same invocation.
+
+## 2026-09-02 — Phase 4 delivery
+
+Master is already 3840x2160 (THE 4K LAW in compile.py forces any clean,
+non-`--review` master to 4K), so the Fellows-facing 4K file is the same
+render, copied to the `-4k` filename `deliver.py` expects.
+
+```
+cp financial-services--claude-liam-macro-rates-monitor.mp4 \
+   financial-services--claude-liam-macro-rates-monitor-4k.mp4
+python3 skills/make/hai-simple/loop/deliver.py <REEL_DIR> --push
+```
+
+Outbox staged: `DELIVERY/financial-services--claude-liam-macro-rates-monitor/`
+(4K mp4 + description.md). Repo: committed + pushed to
+`humanitarians-youtube/claude-bear/financial-services--claude-liam-macro-rates-monitor/`
+(README.md, beat_sheet.json, SCRIPT.md, SUBJECT.json, BUILD-LOG.md,
+CARRY-OUT.md, QUESTION.md — no mp3/mp4), commit `844ac1fe`.
+
+**Status: DELIVERED.** Both delivery targets staged/pushed. Reel complete.
