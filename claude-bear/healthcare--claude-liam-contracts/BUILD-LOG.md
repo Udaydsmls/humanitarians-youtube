@@ -110,3 +110,19 @@ per the DELIVERY CONTRACT format).
 
 **Status: review cut DONE.** Passed every Phase-3 gate. Proceeding to
 Phase 4 (4K render + deliver.py) in this same invocation.
+
+## 2026-09-02 — Phase 4 delivery
+
+- **4K master:** `compile.py`'s 4K LAW already forced the master to native
+  3840×2160 (Remotion beats render at native 4K), so copied directly to
+  `healthcare--claude-liam-contracts-4k.mp4` rather than re-rendering at a
+  higher resolution — verified via ffprobe (3840x2160).
+- **Delivered:** `deliver.py --push` — outbox
+  `DELIVERY/healthcare--claude-liam-contracts/` (4K master + description,
+  syncs to Drive `Claude_Bear/` on this machine's Drive-for-desktop mount);
+  repo `humanitarians-youtube/claude-bear/healthcare--claude-liam-contracts/`
+  (README.md + beat_sheet.json + SCRIPT.md + SUBJECT.json + BUILD-LOG.md +
+  CARRY-OUT.md + QUESTION.md — no media). Commit `7b327134`, pushed clean
+  (verified `git log` + `git status` against `origin/main`).
+
+**Status: DELIVERED.**
