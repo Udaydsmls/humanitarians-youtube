@@ -143,3 +143,25 @@ in the map — plus the direct code link per the DELIVERY CONTRACT format).
 
 **Status: review cut DONE.** Passed every Phase-3 gate. Proceeding to
 Phase 4 (4K render + deliver.py) in this same invocation.
+
+## 2026-09-02 — Phase 4 delivery
+
+Master is already 3840x2160 (THE 4K LAW in compile.py forces any clean,
+non-`--review` master to 4K), so the Fellows-facing 4K file is the same
+render, copied to the `-4k` filename `deliver.py` expects:
+
+```
+cp knowledge-work-plugins--claude-liam-cash-flow-snapshot.mp4 \
+   knowledge-work-plugins--claude-liam-cash-flow-snapshot-4k.mp4
+python3 skills/make/hai-simple/loop/deliver.py <REEL_DIR> --push
+```
+
+Staged to `DELIVERY/knowledge-work-plugins--claude-liam-cash-flow-snapshot/`
+(4K master + description) and committed + pushed the text artifacts
+(README.md = description, beat_sheet.json, SCRIPT.md, SUBJECT.json,
+BUILD-LOG.md, CARRY-OUT.md, QUESTION.md — no media) to
+`claude-bear/knowledge-work-plugins--claude-liam-cash-flow-snapshot/` in
+the humanitarians-youtube clone: commit `676c80c5`, pushed clean
+(`git status --short` empty after).
+
+**Status: DELIVERED.**
