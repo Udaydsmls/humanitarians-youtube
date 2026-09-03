@@ -193,3 +193,13 @@ cp knowledge-work-plugins--claude-liam-campaign-plan.mp4 \
    knowledge-work-plugins--claude-liam-campaign-plan-4k.mp4
 python3 skills/make/hai-simple/loop/deliver.py <REEL_DIR> --push
 ```
+
+Result: outbox staged at
+`DELIVERY/knowledge-work-plugins--claude-liam-campaign-plan/` (4K mp4 +
+description); repo copy staged at
+`humanitarians-youtube/claude-bear/knowledge-work-plugins--claude-liam-campaign-plan/`
+(README.md, beat_sheet.json, SCRIPT.md, SUBJECT.json, BUILD-LOG.md,
+CARRY-OUT.md, QUESTION.md — no media); committed and pushed to
+github.com/nikbearbrown/humanitarians-youtube (commit `f7e2a089`).
+
+**Status: DELIVERED.**
