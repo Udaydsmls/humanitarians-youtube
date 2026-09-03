@@ -131,3 +131,22 @@ directly (no fallback needed), consistent with every other
 DELIVERY CONTRACT format included.
 
 **Status: review cut DONE.** Passed every Phase-3 gate.
+
+## 2026-09-03 — Phase 4, DELIVERED
+
+Master was already born native 3840×2160 (compile.py's 4K LAW), so copied
+directly to `knowledge-work-plugins--claude-liam-competitive-brief-4k.mp4`
+rather than re-rendering at a higher resolution.
+
+```
+python3 skills/make/hai-simple/loop/deliver.py <REEL_DIR> --push
+```
+
+Staged `DELIVERY/knowledge-work-plugins--claude-liam-competitive-brief/`
+(4K master + description) for the Drive sync. Committed to
+`claude-bear/knowledge-work-plugins--claude-liam-competitive-brief/`
+(README.md = description, beat_sheet.json, SCRIPT.md, SUBJECT.json,
+CARRY-OUT.md, QUESTION.md, BUILD-LOG.md — no mp3/mp4) as commit
+`86e250c0`, pushed clean (no rebase conflicts).
+
+**Status: DELIVERED.**
