@@ -104,3 +104,19 @@ independently verified, mp4 newer than beat_sheet.json). COMPLETION LAW satisfie
 
 **Status: review cut DONE.** Passed every Phase-3 gate. Proceeding to Phase 4 (4K render +
 deliver.py) in this same invocation.
+
+## Phase 4 (4K + delivery)
+
+- **4K master:** the Phase-3 compile already wrote the master natively at 3840×2160
+  (all-Remotion reel). Copied it to
+  `knowledge-work-plugins--claude-liam-enrich-lead-4k.mp4` so `deliver.py`'s
+  `newest_master()` picks it as the explicit 4K variant.
+- **Delivered:** `deliver.py --push` — outbox
+  `DELIVERY/knowledge-work-plugins--claude-liam-enrich-lead/` (4K master + description,
+  syncs to Drive `Claude_Bear/` on this machine's Drive-for-desktop mount); repo
+  `humanitarians-youtube/claude-bear/knowledge-work-plugins--claude-liam-enrich-lead/`
+  (README.md + beat_sheet.json + SCRIPT.md + SUBJECT.json + BUILD-LOG.md + CARRY-OUT.md +
+  QUESTION.md — no media): commit `18b26228`, pushed clean (`git status --short` empty
+  after).
+
+**Status: DELIVERED.**
