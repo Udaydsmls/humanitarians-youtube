@@ -3,7 +3,7 @@
 ## 2026-09-07 — script written, video published
 
 - **Video:** [Paged Attention Explained: How OS Paging Fixes GPU Memory Waste in LLMs](https://www.youtube.com/watch?v=0rRC3kx5Jd8)
-- **Drive:** https://drive.google.com/drive/folders/1dNRtEobtVoOo96AsAAauUyMaR99WWjsT 
+- **Drive:** https://drive.google.com/drive/folders/1xOoXuHBwvOA8mb8O3YAUd3hiCSPezVJB?usp=sharing
 - **Report:** [REPORT.md](REPORT.md)
 - **Paired sprint:** [Sprint 3 — task policy, router, frozen test set](../09102026paged-attention/)
 

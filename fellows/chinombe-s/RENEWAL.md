@@ -1,11 +1,11 @@
 # Renewal request — Simbaremuteuro Chinombe
 
-**Current agreement:** 21 Aug — 30 Sep
-**Requested period:** 1 Oct — 31 Dec
+- **Current agreement:** 21 Aug — 30 Sep
+- **Requested period:** 1 Oct — 31 Dec
 
-**Project:** Mycroft — Adaptive Model Routing & Inference Gateway
-**Repository:** https://github.com/nikbearbrown/mycroft
-**Branch:** `chinombesimbaremuteuro/adaptive-model-routing`
+- **Project:** Mycroft — Adaptive Model Routing & Inference Gateway
+- **Repository:** https://github.com/nikbearbrown/mycroft
+- **Branch:** `chinombesimbaremuteuro/adaptive-model-routing`
 
 ## What the current period produced
 
