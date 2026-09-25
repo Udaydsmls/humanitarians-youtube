@@ -14,7 +14,7 @@ repository above, and every figure below traces to a logged row rather than an
 estimate.
 
 - An append-only logbook where every model call's cost, latency, tier and
-  routing reason are recorded before the caller gets its answer — 168 tests, no
+  routing reason are recorded before the caller gets its answer  168 tests, no
   runtime dependencies.
 - Six task types locked to evidence already in the repository, a rules router,
   and 24 fixtures hand-labelled and frozen before any model was run on them.
@@ -24,10 +24,6 @@ estimate.
   swapped, so position bias appears as a recorded disagreement instead of a
   result. It established that judging a pair costs 2.4x producing it, which is
   why it stays out of the request path.
-- Five bugs that produced *plausible, wrong* numbers rather than errors — silent
-  row loss on Windows concurrent appends, a summary that counted another run's
-  requests, and two checks that failed correct answers over formatting. All
-  documented in `scripts/gateway/FINDINGS.md`.
 - Five STEM explainers on inference economics, three published/uploaded to youtube so far.
 
 ### Evidence
