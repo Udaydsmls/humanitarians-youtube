@@ -1,6 +1,6 @@
 # Frictional log — Explainer: PagedAttention
 
-## 2026-09-07 — script written, video published, build not recorded
+## 2026-09-07 — script written, video published
 
 - **Video:** [Paged Attention Explained: How OS Paging Fixes GPU Memory Waste in LLMs](https://www.youtube.com/watch?v=0rRC3kx5Jd8)
 - **Drive:** https://drive.google.com/drive/folders/1dNRtEobtVoOo96AsAAauUyMaR99WWjsT 

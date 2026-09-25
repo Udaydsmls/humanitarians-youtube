@@ -1,11 +1,11 @@
 # Sprint 2 — Connecting the three model tiers
 
-**Week:** 31 Aug – 4 Sep 2026 · 
-**Project:** Mycroft — Adaptive Model Routing & Inference Gateway
-**Evidence of commit:** https://github.com/nikbearbrown/mycroft/commit/f8c80ee081c0cf1411b0dcc0592a06ec4d79a384
+- **Week:** 31 Aug – 4 Sep 2026 · 
+- **Project:** Mycroft — Adaptive Model Routing & Inference Gateway
+- **Evidence of commit:** https://github.com/nikbearbrown/mycroft/commit/f8c80ee081c0cf1411b0dcc0592a06ec4d79a384
 
-- **Video:** not recorded for this week
-- **Drive:** https://drive.google.com/drive/folders/1pHXg01GKXI1-iEPKqCr3O4BUJwsPSCBk
+- **Video:** 
+- **Drive:** https://drive.google.com/drive/folders/1pHXg01GKXl1-iEPKqCr3O4BUJwsPSCBk?usp=sharing
 - **Frictional log:** [FRICTIONAL.md](FRICTIONAL.md)
 - **This week's explainer:** [KV Cache](../2026-08-31-explainer-kv-cache/)
 

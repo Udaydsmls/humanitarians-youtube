@@ -1,11 +1,11 @@
 # Simbaremuteuro Chinombe — Humanitarians AI Fellow
 
-**Role:** AI engineer
-**Project:** Mycroft — Adaptive Model Routing
-**Repository:** https://github.com/nikbearbrown/mycroft
-**Branch:** `chinombesimbaremuteuro/adaptive-model-routing`
-**Group / supervisor:** Mycroft / Shradha Katte
-**Agreement period:** 21 Aug — 30 Sep
+- **Role:** AI engineer
+- **Project:** Mycroft — Adaptive Model Routing
+- **Repository:** https://github.com/nikbearbrown/mycroft
+- **Branch:** `chinombesimbaremuteuro/adaptive-model-routing`
+- **Group / supervisor:** Mycroft / Shradha Katte
+- **Agreement period:** 21 Aug — 30 Sep
 
 ## Research question
 
