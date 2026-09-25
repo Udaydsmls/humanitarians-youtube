@@ -7,7 +7,7 @@
 - **Video:** 
 - **Drive:** https://drive.google.com/drive/folders/1pHXg01GKXl1-iEPKqCr3O4BUJwsPSCBk?usp=sharing
 - **Frictional log:** [FRICTIONAL.md](FRICTIONAL.md)
-- **This week's explainer:** [KV Cache](../2026-08-31-explainer-kv-cache/)
+- **This week's explainer:** [KV Cache](../09032026how-kv-cache-works/)
 
 ## What this sprint was for
 
@@ -84,9 +84,3 @@ exits 1.
   internal run log, not here).
 - `f8c80ee` committed a runtime `.lock` sidecar that should be ignored, and again
   carried no RUN_LOG entry at the time.
-
-## Next
-
-Sprint 3 decides *which* tier each kind of task should start on, and builds a
-hand-labelled test set to judge that against —
-[2026-09-07-progress-gateway-policy-router-fixtures](../2026-09-07-progress-gateway-policy-router-fixtures/).

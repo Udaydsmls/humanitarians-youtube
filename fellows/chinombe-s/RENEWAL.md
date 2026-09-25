@@ -1,7 +1,7 @@
 # Renewal request — Simbaremuteuro Chinombe
 
 - **Current agreement:** 21 Aug — 30 Sep
-- **Requested period:** 1 Oct — 31 Dec
+- **Requested period:** 1 Oct — 30 Nov
 
 - **Project:** Mycroft — Adaptive Model Routing & Inference Gateway
 - **Repository:** https://github.com/nikbearbrown/mycroft
@@ -28,7 +28,7 @@ estimate.
   row loss on Windows concurrent appends, a summary that counted another run's
   requests, and two checks that failed correct answers over formatting. All
   documented in `scripts/gateway/FINDINGS.md`.
-- Five STEM explainers on inference economics, two published so far.
+- Five STEM explainers on inference economics, three published/uploaded to youtube so far.
 
 ### Evidence
 
