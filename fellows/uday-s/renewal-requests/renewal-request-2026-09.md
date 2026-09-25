@@ -30,7 +30,7 @@ Alongside the engineering I produced ten videos, about 33 minutes in total. Five
 
 ---
 
-## 1. The pipeline — six steps, all merged
+## 1. The pipeline — six steps built, then promoted
 
 | Delivered | Pull request | Merged |
 |---|---|---|
@@ -38,20 +38,15 @@ Alongside the engineering I produced ten videos, about 33 minutes in total. Five
 | Steps 2–3, ingest and shape validation | [mycroft #37](https://github.com/nikbearbrown/mycroft/pull/37) | 2026-09-04 |
 | Steps 4–5, quality check and scoring | [mycroft #40](https://github.com/nikbearbrown/mycroft/pull/40) | 2026-09-11 |
 | Step 6, the human-readable report | [mycroft #48](https://github.com/nikbearbrown/mycroft/pull/48) | 2026-09-18 |
+| Recipe promotion, gate decisions, gate fixes | not yet opened | — |
 
-Together: 4 commits, 53 files, roughly 8,900 new lines.
+Together: 4 commits, 53 files, roughly 8,900 new lines, plus the promotion work below (`d6f5b90`, `55546b5`, `4157a8e`).
 
-### Week five — claiming the promotion the evidence supported
+With the scripts written, the recipe still said they did not exist. Closing that gap meant claiming the promotion the evidence already supported: all 13 `[TODO: DEV]` markers closed — the six canonical steps with evidence, six legacy n8n node markers as mappings, two of which were never built and now say so rather than implying six more scripts exist. Lifecycle frontmatter followed: status `RUNNABLE-SAMPLE`, `recipe_version 0.2.0`, `todos_open 2`, `attestation null`, with the two remaining TODOs written into the recipe body so the count can be grepped rather than taken on trust.
 
-Six step scripts existed, but the recipe still said they did not. That gap was closed:
+`logs/gate-decisions/` now exists, with records for gates 1–4 carrying evidence hashes, `residual_risk` and `voids_if`. Gates 5 and 6 are deliberately absent — writing gate 5 would be a false clearance, because no live or model call has run. Three contract fixes went in alongside: step 3 gained `type_errors` for a wrong-typed value that matched none of its five declared fields, the report's Reader became the compliance reviewer the artifact actually serves, and the template's log path now matches the recipe.
 
-- **All 13 `[TODO: DEV]` markers closed**, though not uniformly — the six canonical steps closed with evidence, while six legacy n8n node markers closed as mappings. Two of those (Parse Question & Extract Tickers, Webhook Response) were never built and now say so, rather than implying six more scripts exist.
-- **Lifecycle frontmatter added** — status `RUNNABLE-SAMPLE`, `recipe_version 0.2.0`, `todos_open 2`, `attestation null`. The two remaining TODOs are real markers in the recipe body, so the count can be grepped rather than taken on trust.
-- **`logs/gate-decisions/` created** with records for gates 1–4, each carrying evidence hashes, `residual_risk` and `voids_if`. Gates 5 and 6 are deliberately absent: writing gate 5 would be a false clearance, because no live or model call has run.
-- **Three contract fixes** — step 3 gained `type_errors` (a wrong-typed value matched none of its five declared fields); the report's Reader is now the compliance/audit reviewer the artifact actually serves; the template's log path now matches the recipe.
-- **Two gates that could be satisfied by doing nothing** — gates 4 and 5 each passed if their artifact existed *or* if a TODO marker was still present. Both now have real failure paths, with gate 5 break-tested across all three cases.
-
-Frictional log: [recipe promotion and gate fixes](../frictional-logs/2026-09-25-recipe-promotion-and-gate-fixes.md) · commits `d6f5b90`, `55546b5`, `4157a8e`. **Not yet merged upstream.**
+The sharpest find was two gates that could be satisfied by doing nothing. Gates 4 and 5 each passed if their artifact existed *or* if a TODO marker was still present — and both were true. Both now have real failure paths, with gate 5 break-tested across all three cases. Frictional log: [recipe promotion and gate fixes](../frictional-logs/2026-09-25-recipe-promotion-and-gate-fixes.md).
 
 ### How the steps are designed
 
