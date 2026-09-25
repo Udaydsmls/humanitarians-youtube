@@ -40,11 +40,9 @@ Alongside the engineering I produced ten videos, about 33 minutes in total. Five
 | Step 6, the human-readable report | [mycroft #48](https://github.com/nikbearbrown/mycroft/pull/48) | 2026-09-18 |
 | Recipe promotion, gate decisions, gate fixes | not yet opened | — |
 
-Together: 4 commits, 53 files, roughly 8,900 new lines, plus the promotion work below (`d6f5b90`, `55546b5`, `4157a8e`).
+Together: 4 commits, 53 files, roughly 8,900 new lines, plus the promotion commits `d6f5b90`, `55546b5`, `4157a8e`.
 
-With the scripts written, the recipe still said they did not exist. All 13 `[TODO: DEV]` markers were closed — the six canonical steps with evidence, six legacy n8n node markers as mappings, two of which were never built and now say so. Lifecycle frontmatter set to `RUNNABLE-SAMPLE`, `recipe_version 0.2.0`, `todos_open 2`, with both remaining TODOs written into the recipe body so the count can be grepped.
-
-`logs/gate-decisions/` was added with records for gates 1–4, each carrying evidence hashes, `residual_risk` and `voids_if`; gates 5 and 6 are left absent, since no live or model call has run. Three contract fixes: `type_errors` added to step 3, the report's Reader corrected to the compliance reviewer, the template's log path aligned with the recipe. Gates 4 and 5 each passed if their artifact existed *or* if a TODO marker was still present — both now have real failure paths, gate 5 break-tested across three cases. Frictional log: [recipe promotion and gate fixes](../frictional-logs/2026-09-25-recipe-promotion-and-gate-fixes.md).
+With the scripts written, the recipe still said they did not exist. That was closed: all 13 `[TODO: DEV]` markers resolved, lifecycle frontmatter set to `RUNNABLE-SAMPLE` with the two open TODOs marked in the body, `logs/gate-decisions/` created for gates 1–4, and three contract fixes. Gates 4 and 5 could each pass while a TODO marker was still present; both now have real failure paths. Frictional log: [recipe promotion and gate fixes](../frictional-logs/2026-09-25-recipe-promotion-and-gate-fixes.md).
 
 ### How the steps are designed
 
