@@ -1,4 +1,4 @@
-# Renewal request — Simba C
+# Renewal request — Simbaremuteuro Chinombe
 
 **Current agreement:** 21 Aug — 30 Sep
 **Requested period:** 1 Oct — 31 Dec
@@ -32,23 +32,23 @@ estimate.
 
 ### Evidence
 
-| Sprint | Commit | Drive | Video |
-|---|---|---|---|
-| 1 — request logbook | [`b46d48e`](https://github.com/nikbearbrown/mycroft/commit/b46d48e14ad2da14c507af6a59e85cd40cd4cae8) | [folder](https://drive.google.com/drive/folders/1H2fjjURBSxWyUZ5dBAkl9Ced5ANGVGSJ) | [watch](https://www.youtube.com/watch?v=nC1xKKoPuUE) |
-| 2 — model connection | [`f8c80ee`](https://github.com/nikbearbrown/mycroft/commit/f8c80ee081c0cf1411b0dcc0592a06ec4d79a384) | [folder](https://drive.google.com/drive/folders/1pHXg01GKXI1-iEPKqCr3O4BUJwsPSCBk) | not recorded |
-| 3 — policy, router, fixtures | [`68bbeb5`](https://github.com/nikbearbrown/mycroft/commit/68bbeb5d1ee5b7e53bd283d17dc516024a2b5589) | [folder](https://drive.google.com/drive/folders/1xOoXuHBwvOA8mb8O3YAUd3hiCSPezVJB) | not recorded |
-| 4 — retry and first run | [`d235542`](https://github.com/nikbearbrown/mycroft/commit/d2355422cf45a7951881cc4547a2b90a5e266678) | [folder](https://drive.google.com/drive/folders/1OopER7YqxoKf_w_qwXM98Jh9C2Yxwm6I) | not recorded |
-| 5 — quality judging | [`2a002da`](https://github.com/nikbearbrown/mycroft/commit/2a002da9e20c6887e1cac7dbbeb45ba93cd16152) | not yet created | not yet recorded |
+| Sprint | Commit | Drive | Video | Log |
+|---|---|---|---|---|
+| 1 — request logbook | [`b46d48e`](https://github.com/nikbearbrown/mycroft/commit/b46d48e14ad2da14c507af6a59e85cd40cd4cae8) | [folder](https://drive.google.com/drive/folders/1H2fjjURBSxWyUZ5dBAkl9Ced5ANGVGSJ) | [watch](https://www.youtube.com/watch?v=nC1xKKoPuUE) | [log](./08282026-mycroft-logbook/FRICTIONAL.md) |
+| 2 — model connection | [`f8c80ee`](https://github.com/nikbearbrown/mycroft/commit/f8c80ee081c0cf1411b0dcc0592a06ec4d79a384) | [folder](https://drive.google.com/drive/folders/1pHXg01GKXl1-iEPKqCr3O4BUJwsPSCBk?usp=sharing) | not uploaded | [log](./09032026mycroft-gateway/FRICTIONAL.md) |
+| 3 — policy, router, fixtures | [`68bbeb5`](https://github.com/nikbearbrown/mycroft/commit/68bbeb5d1ee5b7e53bd283d17dc516024a2b5589) | [folder](https://drive.google.com/drive/folders/1xOoXuHBwvOA8mb8O3YAUd3hiCSPezVJB) | [watch](https://www.youtube.com/watch?v=MiWZyDMCR50) | [log](./09102026mycroft-router/FRICTIONAL.md) |
+| 4 — retry and first run | [`d235542`](https://github.com/nikbearbrown/mycroft/commit/d2355422cf45a7951881cc4547a2b90a5e266678) | [folder](https://drive.google.com/drive/folders/1OopER7YqxoKf_w_qwXM98Jh9C2Yxwm6l?usp=sharing) | [watch](https://www.youtube.com/watch?v=VndHWZ2dPFI) | [log](./09172026mycroft-retry/FRICTIONAL.md) |
+| 5 — quality judging | [`2a002da`](https://github.com/nikbearbrown/mycroft/commit/2a002da9e20c6887e1cac7dbbeb45ba93cd16152) | [folder](https://drive.google.com/drive/folders/1qJOzaQNE3GbWStgf9_dqkrWMGw8rJnQ6?usp=sharing) | not yet recorded | [log](./09242026mycroft-Measure-quality/FRICTIONAL.md) |
 
 ## Stem Topics
 
-| Week | Topic | Links |
-|---|---|---|
-| [24–28 Aug](./08282026-whatismcp) | What is MCP | [video](https://www.youtube.com/watch?v=a1tiMgiQDfg) · [drive](https://drive.google.com/drive/folders/1BS4mqXHacyxOlfFH9vQwKDVt2q36ZS23) |
-| [31 Aug – 4 Sep](./09032026how-kv-cache-works/) | How KV cache works | - · [drive](https://drive.google.com/drive/folders/1-H-vE7c3x-pJmIU_Jw5rjhPBydSJfA8q) |
-| [7–11 Sep](./09102026paged-attention/) | PagedAttention | [video](https://www.youtube.com/watch?v=0rRC3kx5Jd8) · [drive](https://drive.google.com/drive/folders/1dNRtEobtVoOo96AsAAauUyMaR99WWjsT) |
-| [14–18 Sep](./09172026prefill-decode/) | Prefill vs decode | [video](https://www.youtube.com/watch?v=0rRC3kx5Jd8&t=9s) · [drive](https://drive.google.com/drive/folders/1CY_suzRRK4f05C5OeNKXm-5Bw6Ynhv1H) |
-| [21–25 Sep](./09242026jev-speed/) | Why Jev is fast | -  · [drive](https://drive.google.com/drive/folders/1LYJr3yRnV_77b5HQTvbN21b-z5r7EJEB?usp=sharing)
+| Week | Topic | Video | Drive | Log |
+|---|---|---|---|---|
+| [24–28 Aug](./08282026-whatismcp/) | What is MCP | [video](https://www.youtube.com/watch?v=a1tiMgiQDfg) | [drive](https://drive.google.com/drive/folders/1BS4mqXHacyxOIfFH9vQwKDVt2q36ZS23?usp=sharing) | [log](./08282026-whatismcp/FRICTIONAL.md) |
+| [31 Aug – 4 Sep](./09032026how-kv-cache-works/) | How KV cache works | - | [drive](https://drive.google.com/drive/folders/1-H-vE7c3x-pJmIU_Jw5rjhPBydSJfA8q) | [log](./09032026how-kv-cache-works/FRICTIONAL.md) |
+| [7–11 Sep](./09102026paged-attention/) | PagedAttention | [video](https://www.youtube.com/watch?v=0rRC3kx5Jd8) | [drive](https://drive.google.com/drive/folders/1xOoXuHBwvOA8mb8O3YAUd3hiCSPezVJB?usp=sharing) | [log](./09102026paged-attention/FRICTIONAL.md) |
+| [14–18 Sep](./09172026prefill-decode/) | Prefill vs decode | [video](https://www.youtube.com/watch?v=G-BSNylji68&t=3s) | [drive](https://drive.google.com/drive/folders/1dNRtEobtVoOo96AsAAauUyMaR99WWjsT?usp=sharing) | [log](./09172026prefill-decode/FRICTIONAL.md) |
+| [21–25 Sep](./09242026jev-speed/) | Why Jev is fast | - | [drive](https://drive.google.com/drive/folders/1LYJr3yRnV_77b5HQTvbN21b-z5r7EJEB?usp=sharing) | [log](./09242026jev-speed/FRICTIONAL.md) |
 
 Weekly hours: [HOURS.md](HOURS.md). Weekly Frictional logs: one per work folder,
 listed in [README.md](README.md).
@@ -69,7 +69,7 @@ Sprints 6–9, in order, each gating the next:
 4. **Build the chosen option** (19–23 Oct). Package it as a service other Mycroft
    projects can call or a rules table they can copy, with reliability testing and
    documentation for both audiences.
-5. **Future Work** (from 26 Oct). Choose the next topic ,propose and carry it out
+5. **Future Work** (from 26 Oct). Choose the next topic, propose and carry it out.
 
 Reporting continues as it has: a dated Frictional log per work folder, weekly
 hours, and a RUN_LOG entry plus findings in the project repository.
@@ -77,5 +77,4 @@ hours, and a RUN_LOG entry plus findings in the project repository.
 ## Open items I am carrying
 
 - Jev-speed upload
-- The Sprint 5 RUN_LOG entry 
-
+- The Sprint 5 RUN_LOG entry
