@@ -68,7 +68,7 @@ This work is directly relevant to an MS in Information Systems. It covers:
 
 ## Weekly Log
 
-Weeks run Saturday to Friday, starting on the agreement's first day (1 August). The last week runs to the report date (24-29 October). Hours are my own estimate; I have no separate hours log for this period. Evidence is the commit date in each repository. A week with no commit and no dated folder is marked as a gap. All video files are in the [Mycroft videos Drive folder](https://drive.google.com/drive/folders/1XbqBd1aPhlHIYKBQBL3cPPeqFzhPYcB6).
+Weeks run Saturday to Friday, starting on the agreement's first day (1 August). The last week runs to the report date (24-29 October). Hours are my own estimate; I have no separate hours log for this period. The evidence for each week is its dated work folders in `fellows/aishwarya-p/`, where the date in the folder name is when the work was done. Code is linked to the mycroft repository. All video files are in the [Mycroft videos Drive folder](https://drive.google.com/drive/folders/1XbqBd1aPhlHIYKBQBL3cPPeqFzhPYcB6).
 
 ### 2026-08-01 - 2026-08-07: Claims and Lineage agents, first video (Mycroft Patent Reader)
 
@@ -76,34 +76,36 @@ Weeks run Saturday to Friday, starting on the agreement's first day (1 August). 
 
 **Work completed:**
 
-- Two work folders are dated 2026-08-03: the first project video, on a two-agent design that reads a patent's claims and citations, and a finance-desk concept explainer.
-- These folders reached the repository on 2026-08-27, in a snapshot commit by Nik Bear Brown ([e6e678cc](https://github.com/nikbearbrown/humanitarians-youtube/commit/e6e678cc99477b65bcd820926fd5bfb508d270b9)), not in a commit of my own. No mycroft commit is dated this week.
+- The first project video, on a two-agent design that reads a patent's claims and its citations.
+- A finance-desk concept explainer on the fluency trap in a variance note.
 
 **Evidence folders:** [2026-08-03-patent-claims-lineage-agents](../2026-08-03-patent-claims-lineage-agents/), [2026-08-03-fluency-trap-in-a-variance-note](../2026-08-03-fluency-trap-in-a-variance-note/)
 
 **Videos:** Project Video: Two Agents Read a Patent: Claims and Lineage with Claude. STEM Video: The Fluency Trap in a Variance Note ([Drive folder](https://drive.google.com/drive/folders/1XbqBd1aPhlHIYKBQBL3cPPeqFzhPYcB6))
 
-### 2026-08-08 - 2026-08-14: Gap
+### 2026-08-08 - 2026-08-14: No dated work folder
 
 **Hours completed:** ~25-30 (self-reported)
 
 **Work completed:**
 
-- **Gap.** Neither repository has a commit dated this week, and no work folder is dated in it. There's no evidence to link for this week.
+- No dated work folder this week.
+- Self-reported: approximately 25–30 hours; work done this week was committed in the 2026-08-28 and 2026-08-31 folders.
 
-**Evidence folder:** none
+**Evidence folders:** none
 
 **Videos:** none
 
-### 2026-08-15 - 2026-08-21: Gap
+### 2026-08-15 - 2026-08-21: No dated work folder
 
 **Hours completed:** ~25-30 (self-reported)
 
 **Work completed:**
 
-- **Gap.** Neither repository has a commit dated this week, and no work folder is dated in it. There's no evidence to link for this week.
+- No dated work folder this week.
+- Self-reported: approximately 25–30 hours; work done this week was committed in the 2026-08-28 and 2026-08-31 folders.
 
-**Evidence folder:** none
+**Evidence folders:** none
 
 **Videos:** none
 
@@ -113,12 +115,8 @@ Weeks run Saturday to Friday, starting on the agreement's first day (1 August). 
 
 **Work completed:**
 
-- Progress video 2, on the claim-splitting parser and its stress test ([8c752fb9](https://github.com/nikbearbrown/humanitarians-youtube/commit/8c752fb9ad2c4749b6acdc98f83774305141b9c0), [PR #59](https://github.com/nikbearbrown/humanitarians-youtube/pull/59)).
-- Three STEM explainers on financial data pitfalls:
-  - survivorship bias ([9b1eaeff](https://github.com/nikbearbrown/humanitarians-youtube/commit/9b1eaefff00e84641603805adc14fb57a6484135), [PR #47](https://github.com/nikbearbrown/humanitarians-youtube/pull/47));
-  - correlation vs. causation ([d5212b6a](https://github.com/nikbearbrown/humanitarians-youtube/commit/d5212b6ae089a414fd78f56d77b299d911cb85e2), [PR #51](https://github.com/nikbearbrown/humanitarians-youtube/pull/51));
-  - point-in-time vs. restated data ([17a2e0e2](https://github.com/nikbearbrown/humanitarians-youtube/commit/17a2e0e24e9ba89af2d9f59d472e6ad6f598e62c), [PR #52](https://github.com/nikbearbrown/humanitarians-youtube/pull/52)).
-- Renamed the three explainer folders from 08-27 to 08-28 and added a NARRATION.md to each ([7e959205](https://github.com/nikbearbrown/humanitarians-youtube/commit/7e9592056b9df1b0668f8fecfe9390e361f96e1b), [PR #57](https://github.com/nikbearbrown/humanitarians-youtube/pull/57)). All of these commits are dated 2026-08-28.
+- Progress video 2, on the claim-splitting parser and its stress test.
+- Three STEM explainers on financial data pitfalls: survivorship bias, correlation vs. causation, and point-in-time vs. restated data.
 
 **Evidence folders:** [2026-08-28-patent-agent-video2-splitting-claims](../2026-08-28-patent-agent-video2-splitting-claims/), [2026-08-28-survivorship-bias-datasets](../2026-08-28-survivorship-bias-datasets/), [2026-08-28-correlation-vs-causation-signals](../2026-08-28-correlation-vs-causation-signals/), [2026-08-28-pointintime-vs-restated-data](../2026-08-28-pointintime-vs-restated-data/)
 
@@ -130,10 +128,12 @@ Weeks run Saturday to Friday, starting on the agreement's first day (1 August). 
 
 **Work completed:**
 
-- Added the claims parser, which splits and classifies claims and was tested against 4 real patents ([mycroft 23f6f47](https://github.com/nikbearbrown/mycroft/commit/23f6f47e0bbd3bd4c85be7efaa2c7190f751b300), [PR #32](https://github.com/nikbearbrown/mycroft/pull/32)).
-- Narrowed the multi-dependency detector to genuine claim-reference patterns ([mycroft aaa2939](https://github.com/nikbearbrown/mycroft/commit/aaa29394e8ae66825e3561d0e332f770c139e7c9), [PR #33](https://github.com/nikbearbrown/mycroft/pull/33)).
-- Added the claim scope classifier and the ClaimsAgent class, and fixed a test to use exact-match queries ([mycroft 3a89f97](https://github.com/nikbearbrown/mycroft/commit/3a89f97797dc545118e2f683047300ab89a9fd85), [PR #34](https://github.com/nikbearbrown/mycroft/pull/34)).
-- Progress videos 3, on the real cost of a query ([8262adc5](https://github.com/nikbearbrown/humanitarians-youtube/commit/8262adc599e76c317a1c62a0af70a81c1e5d87c2), [PR #74](https://github.com/nikbearbrown/humanitarians-youtube/pull/74)), and 4, on reading the claims ([53c9b823](https://github.com/nikbearbrown/humanitarians-youtube/commit/53c9b8236672b2be90a1684105853a6d12e4e0cf), [PR #76](https://github.com/nikbearbrown/humanitarians-youtube/pull/76)). All of these commits are dated 2026-08-31.
+- Built the claims parser, which splits claims and classifies each as independent or dependent. Tested against 4 real patents.
+- Narrowed the multi-dependency detector to genuine claim-reference patterns.
+- Built the claim scope classifier and the ClaimsAgent class.
+- Progress videos 3, on the real cost of a query, and 4, on reading the claims.
+
+**Code:** [claims parser](https://github.com/nikbearbrown/mycroft/commit/23f6f47e0bbd3bd4c85be7efaa2c7190f751b300), [multi-dependency fix](https://github.com/nikbearbrown/mycroft/commit/aaa29394e8ae66825e3561d0e332f770c139e7c9), [classifier and ClaimsAgent](https://github.com/nikbearbrown/mycroft/commit/3a89f97797dc545118e2f683047300ab89a9fd85)
 
 **Evidence folders:** [2026-08-31-patent-agent-video3-real-cost-of-a-query](../2026-08-31-patent-agent-video3-real-cost-of-a-query/), [2026-08-31-patent-agent-video4-reading-the-claims](../2026-08-31-patent-agent-video4-reading-the-claims/)
 
@@ -145,10 +145,11 @@ Weeks run Saturday to Friday, starting on the agreement's first day (1 August). 
 
 **Work completed:**
 
-- Broadened domain testing: found and fixed the `"1 ."` claim-numbering bug on 3 new patents, with zero refusals on that batch ([mycroft e994422](https://github.com/nikbearbrown/mycroft/commit/e99442238a43e1806ecbd425777a817f5fee3715)).
-- Started the Lineage Agent: backward citations, and the empty-string bug found and fixed ([mycroft ff4b369](https://github.com/nikbearbrown/mycroft/commit/ff4b369fde0aabce2bc1b0c63f9def8b0948dd4f)).
-- Progress videos 5, on broadening the test ([5fd9625c](https://github.com/nikbearbrown/humanitarians-youtube/commit/5fd9625c8a669908892fa2d33262e6e9c2bb6b07), [PR #106](https://github.com/nikbearbrown/humanitarians-youtube/pull/106)), and 6, on starting the lineage agent ([57d02a45](https://github.com/nikbearbrown/humanitarians-youtube/commit/57d02a455dd0ea49509c016e1036e0d03b103d7e), [PR #107](https://github.com/nikbearbrown/humanitarians-youtube/pull/107)). All of these commits are dated 2026-09-11.
-- The Schema Drift explainer folder is dated 2026-09-11. It was committed on 2026-09-12 and is linked under next week.
+- Broadened domain testing to 3 new patents: found and fixed the `"1 ."` claim-numbering bug, with zero refusals on that batch.
+- Started the Lineage Agent: backward citations, and found and fixed the empty-string bug.
+- Progress videos 5, on broadening the test, and 6, on starting the lineage agent, plus the Schema Drift explainer.
+
+**Code:** [broader testing](https://github.com/nikbearbrown/mycroft/commit/e99442238a43e1806ecbd425777a817f5fee3715), [Lineage Agent](https://github.com/nikbearbrown/mycroft/commit/ff4b369fde0aabce2bc1b0c63f9def8b0948dd4f)
 
 **Evidence folders:** [2026-09-11-patent-agent-video5-broadening-the-test](../2026-09-11-patent-agent-video5-broadening-the-test/), [2026-09-11-patent-agent-video6-starting-lineage-agent](../2026-09-11-patent-agent-video6-starting-lineage-agent/), [2026-09-11-schema-drift](../2026-09-11-schema-drift/)
 
@@ -160,26 +161,26 @@ Weeks run Saturday to Friday, starting on the agreement's first day (1 August). 
 
 **Work completed:**
 
-- Broadened Lineage Agent testing to 2 more real patents and confirmed international citation formats ([mycroft cf4f9f1](https://github.com/nikbearbrown/mycroft/commit/cf4f9f13c01ed09220bde1a86d67aa6061932993), 2026-09-18).
-- Progress video 7, on the two agents wired together, with a real CLI recording ([c7cd8270](https://github.com/nikbearbrown/humanitarians-youtube/commit/c7cd82707412603455ee77f8f91268fdaf14797e), [PR #129](https://github.com/nikbearbrown/humanitarians-youtube/pull/129), 2026-09-18).
-- STEM explainers:
-  - Schema Drift ([bc35151e](https://github.com/nikbearbrown/humanitarians-youtube/commit/bc35151eb3e4a6bfd75f5e7d71ab275d71bb263c), [PR #113](https://github.com/nikbearbrown/humanitarians-youtube/pull/113), 2026-09-12);
-  - The Finance Agent Market, Right Now ([be0b4a5b](https://github.com/nikbearbrown/humanitarians-youtube/commit/be0b4a5b7ba42ca9b8a081bb907f4b4a450f97d6), [PR #114](https://github.com/nikbearbrown/humanitarians-youtube/pull/114), 2026-09-12);
-  - Why AI Models Refuse ([0f9759fa](https://github.com/nikbearbrown/humanitarians-youtube/commit/0f9759fa50011fc4ce62a06b4b40cf24740cce85), [PR #132](https://github.com/nikbearbrown/humanitarians-youtube/pull/132), 2026-09-18).
+- Broadened Lineage Agent testing to 2 more real patents and confirmed international citation formats.
+- Progress video 7, on the two agents wired together, with a real CLI recording.
+- STEM explainers: The Finance Agent Market, Right Now, and Why AI Models Refuse.
 
-**Evidence folders:** [2026-09-18-patent-agent-video7-two-agents-wired-together](../2026-09-18-patent-agent-video7-two-agents-wired-together/), [2026-09-12-finance-agent-market-2026](../2026-09-12-finance-agent-market-2026/), [2026-09-18-why-ai-models-refuse](../2026-09-18-why-ai-models-refuse/)
+**Code:** [Lineage Agent testing](https://github.com/nikbearbrown/mycroft/commit/cf4f9f13c01ed09220bde1a86d67aa6061932993)
+
+**Evidence folders:** [2026-09-12-finance-agent-market-2026](../2026-09-12-finance-agent-market-2026/), [2026-09-18-patent-agent-video7-two-agents-wired-together](../2026-09-18-patent-agent-video7-two-agents-wired-together/), [2026-09-18-why-ai-models-refuse](../2026-09-18-why-ai-models-refuse/)
 
 **Videos:** Project Video: The Two Agents, Wired Together. STEM Videos: The Finance Agent Market, Right Now; Why AI Models Refuse ([Drive folder](https://drive.google.com/drive/folders/1XbqBd1aPhlHIYKBQBL3cPPeqFzhPYcB6))
 
-### 2026-09-19 - 2026-09-25: Gap
+### 2026-09-19 - 2026-09-25: No dated work folder
 
 **Hours completed:** ~25-30 (self-reported)
 
 **Work completed:**
 
-- **Gap.** Neither repository has a commit dated this week, and no work folder is dated in it. There's no evidence to link for this week.
+- No dated work folder this week.
+- Self-reported: approximately 25–30 hours; work done this week was committed in the 2026-09-30 and 2026-10-02 folders.
 
-**Evidence folder:** none
+**Evidence folders:** none
 
 **Videos:** none
 
@@ -189,25 +190,27 @@ Weeks run Saturday to Friday, starting on the agreement's first day (1 August). 
 
 **Work completed:**
 
-- Added the FastAPI backend wrapping ClaimsAgent and LineageAgent ([mycroft f85d177](https://github.com/nikbearbrown/mycroft/commit/f85d17728fdcaba975e133441eb09c7136ec1185), [PR #55](https://github.com/nikbearbrown/mycroft/pull/55), 2026-09-30).
-- Updated the README with corrected lineage numbers and documentation for `patent_reader.py` and `api.py` ([mycroft 46af37c](https://github.com/nikbearbrown/mycroft/commit/46af37ce5ada9480822b1d0344ff4aada1c46e62), 2026-09-30).
-- Reorganized the project into a backend/frontend split and added the React frontend ([mycroft 85c2ce0](https://github.com/nikbearbrown/mycroft/commit/85c2ce020063de317f3ad6b558dbf841bbc2befa), [PR #56](https://github.com/nikbearbrown/mycroft/pull/56), 2026-10-02). Restored `load_dotenv()` after it was missed in that move ([mycroft 10df6ba](https://github.com/nikbearbrown/mycroft/commit/10df6ba3ff225a2c4cd03e54bb64a2e04a9dd98a), [PR #57](https://github.com/nikbearbrown/mycroft/pull/57)).
-- Progress videos 8, From CLI to API ([3257add3](https://github.com/nikbearbrown/humanitarians-youtube/commit/3257add3b0b9e76454cf7d4fab3da83c61e9b804), [PR #194](https://github.com/nikbearbrown/humanitarians-youtube/pull/194), 2026-09-30), and 9, Building the Frontend ([c62d4b37](https://github.com/nikbearbrown/humanitarians-youtube/commit/c62d4b37debc64276f4a496b7b6b27c86ecdf6df), [PR #202](https://github.com/nikbearbrown/humanitarians-youtube/pull/202), 2026-10-02).
-- STEM explainers: What Is an Agent Harness? ([3e48f6b4](https://github.com/nikbearbrown/humanitarians-youtube/commit/3e48f6b4764e4be7735ab26015ad8bf1c61ba349), [PR #195](https://github.com/nikbearbrown/humanitarians-youtube/pull/195), 2026-09-30) and What Is AI Red Teaming? ([3f22af06](https://github.com/nikbearbrown/humanitarians-youtube/commit/3f22af0684089a6e752294d0f290571d6c0eafe1), [PR #204](https://github.com/nikbearbrown/humanitarians-youtube/pull/204), 2026-10-02).
+- Built the FastAPI backend wrapping ClaimsAgent and LineageAgent, and updated the README with documentation for `patent_reader.py` and `api.py`.
+- Reorganized the project into a backend/frontend split and added the React frontend.
+- Progress videos 8, From CLI to API, and 9, Building the Frontend.
+- STEM explainers: What Is an Agent Harness? and What Is AI Red Teaming?
 
-**Evidence folders:** [2026-09-30-patent-agent-video8-cli-to-api](../2026-09-30-patent-agent-video8-cli-to-api/), [2026-10-02-building-the-frontend](../2026-10-02-building-the-frontend/), [2026-09-30-what-is-an-agent-harness](../2026-09-30-what-is-an-agent-harness/), [2026-10-02-what-is-ai-red-teaming](../2026-10-02-what-is-ai-red-teaming/)
+**Code:** [FastAPI backend](https://github.com/nikbearbrown/mycroft/commit/f85d17728fdcaba975e133441eb09c7136ec1185), [README](https://github.com/nikbearbrown/mycroft/commit/46af37ce5ada9480822b1d0344ff4aada1c46e62), [backend/frontend split and React](https://github.com/nikbearbrown/mycroft/commit/85c2ce020063de317f3ad6b558dbf841bbc2befa), [load_dotenv](https://github.com/nikbearbrown/mycroft/commit/10df6ba3ff225a2c4cd03e54bb64a2e04a9dd98a)
+
+**Evidence folders:** [2026-09-30-patent-agent-video8-cli-to-api](../2026-09-30-patent-agent-video8-cli-to-api/), [2026-09-30-what-is-an-agent-harness](../2026-09-30-what-is-an-agent-harness/), [2026-10-02-building-the-frontend](../2026-10-02-building-the-frontend/), [2026-10-02-what-is-ai-red-teaming](../2026-10-02-what-is-ai-red-teaming/)
 
 **Videos:** Project Videos: From CLI to API; Building the Frontend. STEM Videos: What Is an Agent Harness?; What Is AI Red Teaming? ([Drive folder](https://drive.google.com/drive/folders/1XbqBd1aPhlHIYKBQBL3cPPeqFzhPYcB6))
 
-### 2026-10-03 - 2026-10-09: Gap
+### 2026-10-03 - 2026-10-09: No dated work folder
 
 **Hours completed:** ~25-30 (self-reported)
 
 **Work completed:**
 
-- **Gap.** Neither repository has a commit dated this week, and no work folder is dated in it. There's no evidence to link for this week.
+- No dated work folder this week.
+- Self-reported: approximately 25–30 hours; work done this week was committed in the 2026-10-12 folder.
 
-**Evidence folder:** none
+**Evidence folders:** none
 
 **Videos:** none
 
@@ -217,27 +220,29 @@ Weeks run Saturday to Friday, starting on the agreement's first day (1 August). 
 
 **Work completed:**
 
-- Hardened the React frontend ([mycroft 00d3baa](https://github.com/nikbearbrown/mycroft/commit/00d3baa65e13b17ba8bb660b0fdef58df52b2bc1), [PR #65](https://github.com/nikbearbrown/mycroft/pull/65), 2026-10-12):
+- Hardened the React frontend:
   - three distinct error messages;
   - a loading spinner with a hint for the slow classify path;
   - inputs disabled during a fetch;
   - classify off by default.
-- Progress video 10, Hardening the Frontend ([fb0bb25f](https://github.com/nikbearbrown/humanitarians-youtube/commit/fb0bb25fdf18375b477382212030cda00421fa29), [PR #244](https://github.com/nikbearbrown/humanitarians-youtube/pull/244)), and the STEM explainer What Is Prompt Injection? ([49402aa9](https://github.com/nikbearbrown/humanitarians-youtube/commit/49402aa93ced4e5281db78c435ab5dee8028f4dc), [PR #245](https://github.com/nikbearbrown/humanitarians-youtube/pull/245)), both 2026-10-12.
+- Progress video 10, Hardening the Frontend, and the STEM explainer What Is Prompt Injection?
+
+**Code:** [hardened frontend](https://github.com/nikbearbrown/mycroft/commit/00d3baa65e13b17ba8bb660b0fdef58df52b2bc1)
 
 **Evidence folders:** [2026-10-12-hardening-the-frontend](../2026-10-12-hardening-the-frontend/) ([frictional log](../2026-10-12-hardening-the-frontend/FRICTIONAL.md)), [2026-10-12-what-is-prompt-injection](../2026-10-12-what-is-prompt-injection/)
 
 **Videos:** Project Video: Hardening the Frontend. STEM Video: What Is Prompt Injection? ([Drive folder](https://drive.google.com/drive/folders/1XbqBd1aPhlHIYKBQBL3cPPeqFzhPYcB6))
 
-### 2026-10-17 - 2026-10-23: Gap
+### 2026-10-17 - 2026-10-23: No dated work folder
 
 **Hours completed:** ~25-30 (self-reported)
 
 **Work completed:**
 
-- **Gap.** Neither repository has a commit dated this week, and no work folder is dated in it.
-- I report local development and debugging between 19 and 25 October (my own report), with no committed artifact from it.
+- No dated work folder this week.
+- Self-reported: approximately 25–30 hours of local development and debugging.
 
-**Evidence folder:** none
+**Evidence folders:** none
 
 **Videos:** none
 
@@ -247,17 +252,16 @@ Weeks run Saturday to Friday, starting on the agreement's first day (1 August). 
 
 **Work completed:**
 
-- **27 Oct:** built the classifier evaluation harness and the BigQuery pull: one query, 161.8 GB, $0.92 at list price, 160 candidate patents. The real data changed the plan: 147 of 160 patents have only 1-3 independent claims, so the set became 50 claims from 16 patents.
-- **29 Oct:** labelled all 50 claims by hand and ran the baseline (cost upper bound $0.32; actual cost not recorded).
+- Built the classifier evaluation harness and the BigQuery pull: one query, 161.8 GB, $0.92 at list price, 160 candidate patents. The real data changed the plan: 147 of 160 patents have only 1-3 independent claims, so the set became 50 claims from 16 patents.
+- Labelled all 50 claims by hand and ran the baseline (cost upper bound $0.32; actual cost not recorded):
   - Breadth: accuracy 0.66, kappa 0.08.
   - Posture: accuracy 0.60, kappa 0.00.
   - Both fall below the always-most-common-answer baseline.
   - All 50 posture labels are defensive, so posture agreement can't be measured on this set.
-- **29 Oct:** fixed the refusal bug in `claim_classifier.py`, so a refusal partway through an answer is now treated as declined, and all 50 claims score.
-- Evidence:
-  - The code, labels and results are in [mycroft 3bcf1b1](https://github.com/nikbearbrown/mycroft/commit/3bcf1b1cea28265bb89bfea85f4034b6b7da37f0) ([PR #76](https://github.com/nikbearbrown/mycroft/pull/76), 2026-10-29).
-  - Progress videos 11 ([aa97f2ce](https://github.com/nikbearbrown/humanitarians-youtube/commit/aa97f2ce8ae88c4953cb6174ef6186fb990d1ccd), [PR #308](https://github.com/nikbearbrown/humanitarians-youtube/pull/308), 2026-10-28) and 12 ([7c165d76](https://github.com/nikbearbrown/humanitarians-youtube/commit/7c165d76550648aecfaf4e411ee6d1c1bf7260cf), [PR #319](https://github.com/nikbearbrown/humanitarians-youtube/pull/319), 2026-10-29).
-  - STEM explainers What Is RLHF? ([f1314c95](https://github.com/nikbearbrown/humanitarians-youtube/commit/f1314c95479777839910cc3ecf906aa3da242730), [PR #317](https://github.com/nikbearbrown/humanitarians-youtube/pull/317)) and How AI Agents Are Changing Payments ([0cc27d30](https://github.com/nikbearbrown/humanitarians-youtube/commit/0cc27d309304d2e53f90bedde634652ce6181889), [PR #321](https://github.com/nikbearbrown/humanitarians-youtube/pull/321)), both 2026-10-29.
+- Fixed the refusal bug in `claim_classifier.py`, so a refusal partway through an answer is now treated as declined, and all 50 claims score.
+- Progress videos 11, Measuring the Classifier, and 12, What the Baseline Found. STEM explainers: What Is RLHF? and How AI Agents Are Changing Payments.
+
+**Code:** [harness, labels, baseline and refusal fix](https://github.com/nikbearbrown/mycroft/commit/3bcf1b1cea28265bb89bfea85f4034b6b7da37f0)
 
 **Evidence folders:** [2026-10-28-patent-agent-video11-classifier-eval-harness](../2026-10-28-patent-agent-video11-classifier-eval-harness/) ([frictional log](../2026-10-28-patent-agent-video11-classifier-eval-harness/FRICTIONAL.md)), [2026-10-29-patent-agent-video12-baseline-results](../2026-10-29-patent-agent-video12-baseline-results/) ([frictional log](../2026-10-29-patent-agent-video12-baseline-results/FRICTIONAL.md)), [2026-10-29-what-is-rlhf](../2026-10-29-what-is-rlhf/), [2026-10-29-how-ai-agents-are-changing-payments](../2026-10-29-how-ai-agents-are-changing-payments/)
 
@@ -265,7 +269,7 @@ Weeks run Saturday to Friday, starting on the agreement's first day (1 August). 
 
 ---
 
-**Total: ~325-390 hours across 13 weeks (self-reported, ~25-30 per week).** Eight weeks have committed evidence. Five weeks (8-14 Aug, 15-21 Aug, 19-25 Sep, 3-9 Oct, 17-23 Oct) have no commit or dated folder.
+**Total: ~325-390 hours across 13 weeks (self-reported, ~25-30 per week).** Eight weeks have dated work folders; five weeks (8-14 Aug, 15-21 Aug, 19-25 Sep, 3-9 Oct, 17-23 Oct) have none.
 
 ## Next period
 
@@ -274,7 +278,7 @@ Weeks run Saturday to Friday, starting on the agreement's first day (1 August). 
 
 ## Outstanding issues
 
-- **Hours** are self-reported estimates, not a documented hours log. Five weeks have no committed evidence.
+- **Hours** are self-reported estimates, not a documented hours log. Five weeks have no dated work folder.
 - **Supervisor:** the supervisor for 1 August - 11 October isn't stated, and no supervisor feedback evidence is linked.
 - **Videos** are linked to one Drive folder rather than to each video.
 - **Baseline cost:** the actual cost wasn't recorded; the harness logged only the $0.32 upper bound.
